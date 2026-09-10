@@ -1,0 +1,3338 @@
+[
+  {
+    "doi": "10.1016/j.commtr.2025.100230",
+    "title": "Quantitative assessment of mid-air collision probability in urban air mobility: A safety barrier-based framework for integrated operations",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100230",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Jinpeng Zhang",
+      "Yan Xu",
+      "Kaiquan Cai",
+      "Victor Gordo",
+      "Gokhan Inalhan"
+    ],
+    "affiliations": [
+      "School of Electronic Information Engineering,CHINA. Beihang University, 100191,CHINA. ",
+      "School of Electronic Information Engineering,CHINA. Beihang University, 100191,CHINA. ",
+      "School of Electronic Information Engineering,CHINA. Beihang University, 100191,CHINA. ",
+      "Ingeniería y Economía del Transporte (INECO),SPAIN. ",
+      "Sloane Institute,UNITED KINGDOM. "
+    ],
+    "keywords": [
+      "urban air mobility (UAM)",
+      "mid-air collision (MAC)",
+      "risk assessment",
+      "integrated operations",
+      "safety barriers"
+    ],
+    "abstract": "",
+    "firstpage": "100230",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/12/5",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100230.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Transportation Safety",
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Zhang2025, \r\nauthor = {Jinpeng Zhang and Yan Xu and Kaiquan Cai and Victor Gordo and Gokhan Inalhan},\r\ntitle = {Quantitative assessment of mid-air collision probability in urban air mobility: A safety barrier-based framework for integrated operations},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {urban air mobility (UAM), mid-air collision (MAC), risk assessment, integrated operations, safety barriers},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100230},\r\ndoi = {10.1016/j.commtr.2025.100230},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100229",
+    "title": "PriorFusion: Unified integration of priors for robust road perception in autonomous driving",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100229",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Xuewei Tang",
+      "Mengmeng Yang",
+      "Tuopu Wen",
+      "Peijin Jia",
+      "Le Cui",
+      "Mingshan Luo",
+      "Kehua Sheng",
+      "Bo Zhang",
+      "Kun Jiang",
+      "Diange Yang"
+    ],
+    "affiliations": [
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Autonomous Driving Department,Beijing,CHINA.  Didi Chuxing,Beijing,CHINA. ",
+      "Autonomous Driving Department,Beijing,CHINA.  Didi Chuxing,Beijing,CHINA. ",
+      "Autonomous Driving Department,Beijing,CHINA.  Didi Chuxing,Beijing,CHINA. ",
+      "Autonomous Driving Department,Beijing,CHINA.  Didi Chuxing,Beijing,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. "
+    ],
+    "keywords": [
+      "Autonomous driving",
+      "Road scene perception",
+      "Diffusion model",
+      "Online mapping"
+    ],
+    "abstract": "",
+    "firstpage": "100229",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/18",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100229.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving",
+      "Public Transit"
+    ],
+    "bibtex": "@article{Tang2025, \r\nauthor = {Xuewei Tang and Mengmeng Yang and Tuopu Wen and Peijin Jia and Le Cui and Mingshan Luo and Kehua Sheng and Bo Zhang and Kun Jiang and Diange Yang},\r\ntitle = {PriorFusion: Unified integration of priors for robust road perception in autonomous driving},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Autonomous driving, Road scene perception, Diffusion model, Online mapping},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100229},\r\ndoi = {10.1016/j.commtr.2025.100229},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100228",
+    "title": "Public air routes for low-altitude economies: Priority infrastructure beneficially associated with ground roads",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100228",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Chenchen Xu",
+      "Zongru Li",
+      "Hongbo He",
+      "Anqi Tang",
+      "Xiaohan Liao"
+    ],
+    "affiliations": [
+      "State Key Laboratory of Geographic Information Science and Technology,CHINA. Institute of Geographic Sciences and Natural Resources Research,CHINA. Chinese Academy of Sciences, 100101,CHINA. Key Laboratory of Low Altitude Geographic Information and Air Route,Civil Aviation Administration of China,",
+      "University of Chinese Academy of Sciences, 100049,CHINA. State Key Laboratory of Geographic Information Science and Technology,CHINA. Institute of Geographic Sciences and Natural Resources Research,CHINA. Chinese Academy of Sciences, 100101,CHINA. Key Laboratory of Low Altitude Geographic Information and Air Route,Civil Aviation Administration of China,",
+      "University of Chinese Academy of Sciences, 100049,CHINA. State Key Laboratory of Geographic Information Science and Technology,CHINA. Institute of Geographic Sciences and Natural Resources Research,CHINA. Chinese Academy of Sciences, 100101,CHINA. Key Laboratory of Low Altitude Geographic Information and Air Route,Civil Aviation Administration of China,",
+      "University of Chinese Academy of Sciences, 100049,CHINA. State Key Laboratory of Geographic Information Science and Technology,CHINA. Institute of Geographic Sciences and Natural Resources Research,CHINA. Chinese Academy of Sciences, 100101,CHINA. Key Laboratory of Low Altitude Geographic Information and Air Route,Civil Aviation Administration of China,",
+      "University of Chinese Academy of Sciences, 100049,CHINA. State Key Laboratory of Geographic Information Science and Technology,CHINA. Institute of Geographic Sciences and Natural Resources Research,CHINA. Chinese Academy of Sciences, 100101,CHINA. Key Laboratory of Low Altitude Geographic Information and Air Route,Civil Aviation Administration of China,"
+    ],
+    "keywords": [
+      "Low-altitude economy infrastructure",
+      "Low-altitude public air-route assetization",
+      "Air–ground integration"
+    ],
+    "abstract": "",
+    "firstpage": "100228",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/18",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100228.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Xu2025, \r\nauthor = {Chenchen Xu and Zongru Li and Hongbo He and Anqi Tang and Xiaohan Liao},\r\ntitle = {Public air routes for low-altitude economies: Priority infrastructure beneficially associated with ground roads},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Low-altitude economy infrastructure, Low-altitude public air-route assetization, Air–ground integration},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100228},\r\ndoi = {10.1016/j.commtr.2025.100228},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100227",
+    "title": "MoTIF: An end-to-end multimodal road traffic scene understanding foundation model",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100227",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Zihe Wang",
+      "Haiyang Yu",
+      "Changxin Chen",
+      "Zhiyong Cui",
+      "Yufeng Bi",
+      "Yilong Ren",
+      "Zijian Wang",
+      "Delan Kong",
+      "Jing Tian",
+      "Shoutong Yuan",
+      "Zhiqiang Li"
+    ],
+    "affiliations": [
+      "School of Transportation Science and Engineering,CHINA. Beihang University, 100191,CHINA. State Key Lab of Intelligent Transportation System,Beijing,CHINA. ",
+      "School of Transportation Science and Engineering,CHINA. Beihang University, 100191,CHINA. State Key Lab of Intelligent Transportation System,Beijing,CHINA. ",
+      "School of Transportation Science and Engineering,CHINA. Beihang University, 100191,CHINA. State Key Lab of Intelligent Transportation System,Beijing,CHINA. ",
+      "School of Transportation Science and Engineering,CHINA. Beihang University, 100191,CHINA. State Key Lab of Intelligent Transportation System,Beijing,CHINA. ",
+      "State Key Lab of Intelligent Transportation System,Beijing,CHINA. Shandong High-speed Group Co., LTD.,Jinan,Shandong,CHINA. ",
+      "School of Transportation Science and Engineering,CHINA. Beihang University, 100191,CHINA. State Key Lab of Intelligent Transportation System,Beijing,CHINA. ",
+      "State Key Lab of Intelligent Transportation System,Beijing,CHINA. Shandong High-speed Group Co., LTD.,Jinan,Shandong,CHINA. ",
+      "State Key Lab of Intelligent Transportation System,Beijing,CHINA. Shandong High-speed Group Co., LTD.,Jinan,Shandong,CHINA. ",
+      "School of Traffic Management,Beijing,CHINA. People's Public Security University of China,Beijing,CHINA. ",
+      "CATARC Intelligent and Connected Technology Co., Ltd.,CHINA. ",
+      "CATARC Intelligent and Connected Technology Co., Ltd.,CHINA. "
+    ],
+    "keywords": [
+      "Road traffic",
+      "Scene understanding",
+      "Multimodal foundation model",
+      "Fine-tuning"
+    ],
+    "abstract": "",
+    "firstpage": "100227",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/12/8",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100227.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [],
+    "bibtex": "@article{Wang2025, \r\nauthor = {Zihe Wang and Haiyang Yu and Changxin Chen and Zhiyong Cui and Yufeng Bi and Yilong Ren and Zijian Wang and Delan Kong and Jing Tian and Shoutong Yuan and Zhiqiang Li},\r\ntitle = {MoTIF: An end-to-end multimodal road traffic scene understanding foundation model},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Road traffic, Scene understanding, Multimodal foundation model, Fine-tuning},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100227},\r\ndoi = {10.1016/j.commtr.2025.100227},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100226",
+    "title": "Interpretable machine learning for traffic congestion prediction: Unveiling the impact of different COVID-19 periods",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100226",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Dan Zhu",
+      "ChiSin Ng",
+      "Litian Xie",
+      "Yang Liu"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,  National University of Singapore,",
+      "Department of Civil and Environmental Engineering,  National University of Singapore,",
+      "Department of Civil and Environmental Engineering,  National University of Singapore,",
+      "Department of Civil and Environmental Engineering,  National University of Singapore,Department of Industrial Systems Engineering and Management,SINGAPORE. National University of Singapore, 119077,SINGAPORE. "
+    ],
+    "keywords": [
+      "Traffic congestion prediction",
+      "COVID-19",
+      "Machine learning (ML) models",
+      "Interpretability"
+    ],
+    "abstract": "",
+    "firstpage": "100226",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/24",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100226.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Traffic Flow"
+    ],
+    "bibtex": "@article{Zhu2025, \r\nauthor = {Dan Zhu and ChiSin Ng and Litian Xie and Yang Liu},\r\ntitle = {Interpretable machine learning for traffic congestion prediction: Unveiling the impact of different COVID-19 periods},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Traffic congestion prediction, COVID-19, Machine learning (ML) models, Interpretability},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100226},\r\ndoi = {10.1016/j.commtr.2025.100226},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100225",
+    "title": "Scalable and reliable multi-agent reinforcement learning for traffic assignment",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100225",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Leizhen Wang",
+      "Peibo Duan",
+      "Cheng Lyu",
+      "Zewen Wang",
+      "Zhiqiang He",
+      "Nan Zheng",
+      "Zhenliang Ma"
+    ],
+    "affiliations": [
+      "Department of Data Science and AI,Monash University, 3800,",
+      "Department of Data Science and AI,Monash University, 3800,",
+      "Chair of Transportation Systems Engineering,GERMANY. Technical University of Munich,GERMANY. ",
+      "School of Transportation,Jiangsu,CHINA.  Southeast University,Nanjing,Jiangsu,CHINA. ",
+      "Graduate School of Informatics and Engineering,JAPAN. The University of Electro-Communications,JAPAN. ",
+      "Department of Civil and Environmental Engineering,Monash University, 3800,",
+      "Department of Civil and Architectural Engineering,SWEDEN. KTH Royal Institute of Technology, 11428,SWEDEN. "
+    ],
+    "keywords": [
+      "Multi-agent reinforcement learning",
+      "Traffic assignment",
+      "User equilibrium",
+      "Route choice"
+    ],
+    "abstract": "",
+    "firstpage": "100225",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/21",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100225.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [],
+    "bibtex": "@article{Wang2025, \r\nauthor = {Leizhen Wang and Peibo Duan and Cheng Lyu and Zewen Wang and Zhiqiang He and Nan Zheng and Zhenliang Ma},\r\ntitle = {Scalable and reliable multi-agent reinforcement learning for traffic assignment},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Multi-agent reinforcement learning, Traffic assignment, User equilibrium, Route choice},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100225},\r\ndoi = {10.1016/j.commtr.2025.100225},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100224",
+    "title": "Machine learning-based real-time crash risk forecasting for pedestrians",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100224",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Fizza Hussain",
+      "Yuefeng Li",
+      "Shimul Md Mazharul Haque"
+    ],
+    "affiliations": [
+      "School of Civil & Environment Engineering,AUSTRALIA. Queensland University of Technology (QUT),AUSTRALIA. ",
+      "School of Computer Science,AUSTRALIA. Queensland University of Technology (QUT),AUSTRALIA. ",
+      "School of Civil & Environment Engineering,AUSTRALIA. Queensland University of Technology (QUT),AUSTRALIA. "
+    ],
+    "keywords": [
+      "Artificial intelligence (AI)",
+      "Machine learning",
+      "Extreme value theory",
+      "Pedestrian safety",
+      "Forecasting"
+    ],
+    "abstract": "",
+    "firstpage": "100224",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/25",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100224.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Transportation Safety",
+      "Human Factors"
+    ],
+    "bibtex": "@article{Hussain2025, \r\nauthor = {Fizza Hussain and Yuefeng Li and Shimul Md Mazharul Haque},\r\ntitle = {Machine learning-based real-time crash risk forecasting for pedestrians},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Artificial intelligence (AI), Machine learning, Extreme value theory, Pedestrian safety, Forecasting},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100224},\r\ndoi = {10.1016/j.commtr.2025.100224},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100223",
+    "title": "Multimodal traffic assignment from privacy-protected OD data",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100223",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Guoyang Qin",
+      "Shidi Deng",
+      "Qi Luo",
+      "Jian Sun"
+    ],
+    "affiliations": [
+      "Key Laboratory of Road and Traffic Engineering of the State Ministry of Education,CHINA. Tongji University, 201804,CHINA. ",
+      "School of Management,GERMANY. Technische Universität München,GERMANY. ",
+      "Tippie College of Business,UNITED STATES. University of Iowa,UNITED STATES. ",
+      "Key Laboratory of Road and Traffic Engineering of the State Ministry of Education,CHINA. Tongji University, 201804,CHINA. "
+    ],
+    "keywords": [
+      "Multimodal mobility",
+      "Differential privacy",
+      "Stochastic equilibrium",
+      "Stochastic convex optimization"
+    ],
+    "abstract": "",
+    "firstpage": "100223",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/12/2",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100223.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [],
+    "bibtex": "@article{Qin2025, \r\nauthor = {Guoyang Qin and Shidi Deng and Qi Luo and Jian Sun},\r\ntitle = {Multimodal traffic assignment from privacy-protected OD data},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Multimodal mobility, Differential privacy, Stochastic equilibrium, Stochastic convex optimization},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100223},\r\ndoi = {10.1016/j.commtr.2025.100223},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100222",
+    "title": "From global open multi-source data to network-wide traffic flow: A large-scale case study across multiple cities",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100222",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Zijian Hu",
+      "Zhenjie Zheng",
+      "Monica Menendez",
+      "Wei Ma"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,Hong Kong,CHINA. The Hong Kong Polytechnic University Hung Hom,Hong Kong,CHINA. ",
+      "Department of Civil and Environmental Engineering,Hong Kong,CHINA. The Hong Kong Polytechnic University Hung Hom,Hong Kong,CHINA. ",
+      "Division of Engineering,New York University Abu Dhabi,",
+      "Department of Civil and Environmental Engineering,Hong Kong,CHINA. The Hong Kong Polytechnic University Hung Hom,Hong Kong,CHINA. "
+    ],
+    "keywords": [
+      "Network-wide traffic flow",
+      "Cross-city estimation",
+      "Global open multi-source (GOMS) data",
+      "Graph neural network",
+      "Map images"
+    ],
+    "abstract": "",
+    "firstpage": "100222",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/18",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100222.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Traffic Flow",
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Hu2025, \r\nauthor = {Zijian Hu and Zhenjie Zheng and Monica Menendez and Wei Ma},\r\ntitle = {From global open multi-source data to network-wide traffic flow: A large-scale case study across multiple cities},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Network-wide traffic flow, Cross-city estimation, Global open multi-source (GOMS) data, Graph neural network, Map images},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100222},\r\ndoi = {10.1016/j.commtr.2025.100222},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100221",
+    "title": "Optimal speed limit under multi-class user equilibrium: A prescriptive approach using mathematical programming",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100221",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Xiao Lin",
+      "Ludovic Leclercq",
+      "Lóránt Tavasszy"
+    ],
+    "affiliations": [
+      "Department of Transport & Planning,Delft University of Technology, 1, 2628,Sopra Steria NV,NETHERLANDS. ",
+      "Univ Gustave Eiffel,FRANCE. ",
+      "Department of Transport & Planning,Delft University of Technology, 1, 2628,"
+    ],
+    "keywords": [
+      "Traffic management",
+      "Speed limit",
+      "Optimization",
+      "Multi-class user equilibrium",
+      "Mixed-integer quadratic programming",
+      "Value of time"
+    ],
+    "abstract": "",
+    "firstpage": "100221",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/13",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100221.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Intelligent Transportation Systems"
+    ],
+    "bibtex": "@article{Lin2025, \r\nauthor = {Xiao Lin and Ludovic Leclercq and Lóránt Tavasszy},\r\ntitle = {Optimal speed limit under multi-class user equilibrium: A prescriptive approach using mathematical programming},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Traffic management, Speed limit, Optimization, Multi-class user equilibrium, Mixed-integer quadratic programming, Value of time},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100221},\r\ndoi = {10.1016/j.commtr.2025.100221},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100220",
+    "title": "Efficient and stable ride-pooling through a multi-level coalition formation game",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100220",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Yaotian Tan",
+      "Shuyue Qian",
+      "Aoyong Li",
+      "Haiyang Yu",
+      "Jie Gao"
+    ],
+    "affiliations": [
+      "State Key Lab of Intelligent Transportation System,CHINA. School of Transportation Science and Engineering,CHINA. Beihang University, 100191,CHINA. ",
+      "State Key Lab of Intelligent Transportation System,CHINA. School of Transportation Science and Engineering,CHINA. Beihang University, 100191,CHINA. ",
+      "State Key Lab of Intelligent Transportation System,CHINA. School of Transportation Science and Engineering,CHINA. Beihang University, 100191,CHINA. ",
+      "State Key Lab of Intelligent Transportation System,CHINA. School of Transportation Science and Engineering,CHINA. Beihang University, 100191,CHINA. ",
+      "Department of Transport and Planning,NETHERLANDS. TU Delft,NETHERLANDS. "
+    ],
+    "keywords": [
+      "Ride-pooling",
+      "Stable matching",
+      "Coalition formation",
+      "Game theory"
+    ],
+    "abstract": "",
+    "firstpage": "100220",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/15",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100220.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Sustainable Transportation"
+    ],
+    "bibtex": "@article{Tan2025, \r\nauthor = {Yaotian Tan and Shuyue Qian and Aoyong Li and Haiyang Yu and Jie Gao},\r\ntitle = {Efficient and stable ride-pooling through a multi-level coalition formation game},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Ride-pooling, Stable matching, Coalition formation, Game theory},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100220},\r\ndoi = {10.1016/j.commtr.2025.100220},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100219",
+    "title": "STFC: Spatio-temporal formation control for connected and autonomous vehicles in multi-lane traffic",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100219",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Jianghong Dong",
+      "Jiawei Wang",
+      "Mengchi Cai",
+      "Yibin Yang",
+      "Qing Xu",
+      "Jianqiang Wang",
+      "Keqiang Li"
+    ],
+    "affiliations": [
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Civil and Environmental Engineering,University of Michigan, 48109 ,",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. "
+    ],
+    "keywords": [
+      "Multi-vehicle coordination",
+      "Formation control",
+      "Spatio-temporal joint optimization",
+      "Multi-lane traffic"
+    ],
+    "abstract": "",
+    "firstpage": "100219",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/13",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100219.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Dong2025, \r\nauthor = {Jianghong Dong and Jiawei Wang and Mengchi Cai and Yibin Yang and Qing Xu and Jianqiang Wang and Keqiang Li},\r\ntitle = {STFC: Spatio-temporal formation control for connected and autonomous vehicles in multi-lane traffic},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Multi-vehicle coordination, Formation control, Spatio-temporal joint optimization, Multi-lane traffic},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100219},\r\ndoi = {10.1016/j.commtr.2025.100219},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100218",
+    "title": "HUTFormer: Hierarchical U-Net transformer for long-term traffic forecasting",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100218",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Zezhi Shao",
+      "Fei Wang",
+      "Tao Sun",
+      "Chengqing Yu",
+      "Yuchen Fang",
+      "Guangyin Jin",
+      "Zhulin An",
+      "Yang Liu",
+      "Xiaobo Qu",
+      "Yongjun Xu"
+    ],
+    "affiliations": [
+      "Institute of Computing Technology,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "School of Computer Science and Technology,CHINA. University of Chinese Academy of Sciences, 100049,CHINA. Institute of Computing Technology,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Institute of Computing Technology,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "School of Computer Science and Technology,CHINA. University of Chinese Academy of Sciences, 100049,CHINA. Institute of Computing Technology,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "School of Computer Science and Engineering,CHINA. University of Electronic Science and Technology of China, 610054,CHINA. ",
+      "Department of Planning, Design, and Technology of Architecture,ITALY. Sapienza University of Rome, 00184,ITALY. ",
+      "Institute of Computing Technology,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Computer Science and Technology,CHINA. University of Chinese Academy of Sciences, 100049,CHINA. Institute of Computing Technology,CHINA. Chinese Academy of Sciences, 100101,CHINA. "
+    ],
+    "keywords": [
+      "Traffic condition forecasting",
+      "Long-term time series forecasting",
+      "Multivariate time series forecasting"
+    ],
+    "abstract": "",
+    "firstpage": "100218",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/14",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100218.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [],
+    "bibtex": "@article{Shao2025, \r\nauthor = {Zezhi Shao and Fei Wang and Tao Sun and Chengqing Yu and Yuchen Fang and Guangyin Jin and Zhulin An and Yang Liu and Xiaobo Qu and Yongjun Xu},\r\ntitle = {HUTFormer: Hierarchical U-Net transformer for long-term traffic forecasting},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Traffic condition forecasting, Long-term time series forecasting, Multivariate time series forecasting},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100218},\r\ndoi = {10.1016/j.commtr.2025.100218},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100216",
+    "title": "Can combined virtual-real testing speed up autonomous vehicle testing? Findings from AEB field experiments",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100216",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Meng Zhang",
+      "Jiatong Xu",
+      "Ying Gao",
+      "Dandan Shen",
+      "Zhigang Xu"
+    ],
+    "affiliations": [
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. ",
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. ",
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. ",
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. ",
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. "
+    ],
+    "keywords": [
+      "Autonomous driving",
+      "Combined virtual-real testing",
+      "Autonomous emergency braking",
+      "Consistency validation"
+    ],
+    "abstract": "",
+    "firstpage": "100216",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/10/16",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100216.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Zhang2025, \r\nauthor = {Meng Zhang and Jiatong Xu and Ying Gao and Dandan Shen and Zhigang Xu},\r\ntitle = {Can combined virtual-real testing speed up autonomous vehicle testing? Findings from AEB field experiments},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Autonomous driving, Combined virtual-real testing, Autonomous emergency braking, Consistency validation},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100216},\r\ndoi = {10.1016/j.commtr.2025.100216},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100215",
+    "title": "FollowGen: A scaled noise conditional diffusion model for car-following trajectory prediction",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100215",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Junwei You",
+      "Rui Gan",
+      "Weizhe Tang",
+      "Zilin Huang",
+      "Jiaxi Liu",
+      "Zhuoyu Jiang",
+      "Haotian Shi",
+      "Keshu Wu",
+      "Keke Long",
+      "Sicheng Fu",
+      "Sikai Chen",
+      "Bin Ran"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "College of Computing and Data Science,SINGAPORE. Nanyang Technological University, 639798,SINGAPORE. ",
+      "College of Transportation Engineering,CHINA. Tongji University, 201804,CHINA. Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "Zachry Department of Civil and Environmental Engineering,Texas A&M University, 77843-3123,",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. "
+    ],
+    "keywords": [
+      "Generative (AI)",
+      "Autonomous driving",
+      "Conditional diffusion model",
+      "Scaled noise",
+      "Vehicle trajectory prediction",
+      "Car-following dynamics"
+    ],
+    "abstract": "",
+    "firstpage": "100215",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/10/16",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100215.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{You2025, \r\nauthor = {Junwei You and Rui Gan and Weizhe Tang and Zilin Huang and Jiaxi Liu and Zhuoyu Jiang and Haotian Shi and Keshu Wu and Keke Long and Sicheng Fu and Sikai Chen and Bin Ran},\r\ntitle = {FollowGen: A scaled noise conditional diffusion model for car-following trajectory prediction},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Generative (AI), Autonomous driving, Conditional diffusion model, Scaled noise, Vehicle trajectory prediction, Car-following dynamics},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100215},\r\ndoi = {10.1016/j.commtr.2025.100215},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100214",
+    "title": "Domain-enhanced dual-branch model for efficient and interpretable accident anticipation",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100214",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Yanchen Guan",
+      "Haicheng Liao",
+      "Chengyue Wang",
+      "Bonan Wang",
+      "Jiaxun Zhang",
+      "Jia Hu",
+      "Zhenning Li"
+    ],
+    "affiliations": [
+      "State Key Laboratory of Internet of Things for Smart City,CHINA. University of Macau, 999078,CHINA. Department of Civil and Environmental Engineering,CHINA. University of Macau, 999078,CHINA. ",
+      "Department of Computer and Information Science,CHINA. University of Macau, 999078,CHINA. State Key Laboratory of Internet of Things for Smart City,CHINA. University of Macau, 999078,CHINA. ",
+      "State Key Laboratory of Internet of Things for Smart City,CHINA. University of Macau, 999078,CHINA. Department of Civil and Environmental Engineering,CHINA. University of Macau, 999078,CHINA. ",
+      "Department of Computer and Information Science,CHINA. University of Macau, 999078,CHINA. State Key Laboratory of Internet of Things for Smart City,CHINA. University of Macau, 999078,CHINA. ",
+      "State Key Laboratory of Internet of Things for Smart City,CHINA. University of Macau, 999078,CHINA. Department of Civil and Environmental Engineering,CHINA. University of Macau, 999078,CHINA. ",
+      "College of Transportation Engineering,CHINA. Tongji University, 201804,CHINA. ",
+      "Department of Computer and Information Science,CHINA. University of Macau, 999078,CHINA. State Key Laboratory of Internet of Things for Smart City,CHINA. University of Macau, 999078,CHINA. Department of Civil and Environmental Engineering,CHINA. University of Macau, 999078,CHINA. "
+    ],
+    "keywords": [
+      "Accident anticipation",
+      "Vision language model",
+      "Domain knowledge",
+      "Accident reports"
+    ],
+    "abstract": "",
+    "firstpage": "100214",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/10/14",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100214.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Transportation Safety",
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Guan2025, \r\nauthor = {Yanchen Guan and Haicheng Liao and Chengyue Wang and Bonan Wang and Jiaxun Zhang and Jia Hu and Zhenning Li},\r\ntitle = {Domain-enhanced dual-branch model for efficient and interpretable accident anticipation},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Accident anticipation, Vision language model, Domain knowledge, Accident reports},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100214},\r\ndoi = {10.1016/j.commtr.2025.100214},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100213",
+    "title": "Flying cars and urban air mobility: Redefining cities in three dimensions",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100213",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Di Lv",
+      "Kai Wang",
+      "Shulu Chen",
+      "Xiaobo Qu"
+    ],
+    "affiliations": [
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "State Key Laboratory of Intelligent Green Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. "
+    ],
+    "keywords": [],
+    "abstract": "",
+    "firstpage": "100213",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/10/1",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100213.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Lv2025, \r\nauthor = {Di Lv and Kai Wang and Shulu Chen and Xiaobo Qu},\r\ntitle = {Flying cars and urban air mobility: Redefining cities in three dimensions},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100213},\r\ndoi = {10.1016/j.commtr.2025.100213},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100212",
+    "title": "The fundamental diagram of autonomous vehicles: Traffic state estimation and evidence from vehicle trajectories",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100212",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Michail A. Makridis",
+      "Shaimaa K. El-Baklish",
+      "Anastasios Kouvelas",
+      "Jorge A. Laval"
+    ],
+    "affiliations": [
+      "Institute for Transport Planning and Systems,SWITZERLAND. ETH Zurich and University of Zurich,SWITZERLAND. ",
+      "Institute for Transport Planning and Systems,SWITZERLAND. ETH Zurich and University of Zurich,SWITZERLAND. ",
+      "Institute for Transport Planning and Systems,SWITZERLAND. ETH Zurich and University of Zurich,SWITZERLAND. ",
+      "School of Civil and Environmental Engineering,College of Engineering,Georgia Institute of Technology, 30332-0405,"
+    ],
+    "keywords": [
+      "Traffic flow",
+      "Fundamental diagram (FD)",
+      "Vehicle trajectories",
+      "Connected and automated vehicles (AVs)",
+      "Intelligent transportation systems"
+    ],
+    "abstract": "",
+    "firstpage": "100212",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/10/10",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100212.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Traffic Flow",
+      "Autonomous Driving",
+      "Intelligent Transportation Systems"
+    ],
+    "bibtex": "@article{Makridis2025, \r\nauthor = {Michail A. Makridis and Shaimaa K. El-Baklish and Anastasios Kouvelas and Jorge A. Laval},\r\ntitle = {The fundamental diagram of autonomous vehicles: Traffic state estimation and evidence from vehicle trajectories},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Traffic flow, Fundamental diagram (FD), Vehicle trajectories, Connected and automated vehicles (AVs), Intelligent transportation systems},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100212},\r\ndoi = {10.1016/j.commtr.2025.100212},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100209",
+    "title": "Minimum-delay opportunity charging scheduling for electricbuses",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100209",
+    "volume": "5",
+    "issue": "4",
+    "authors": [
+      "Dan McCabe",
+      "Xuegang (Jeff) Ban",
+      "Balaźs Kulcsár"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,University of Washington, 98195,",
+      "Department of Civil and Environmental Engineering,University of Washington, 98195,",
+      "Department of Electrical Engineering,SWEDEN. Chalmers University of Technology,SWEDEN. "
+    ],
+    "keywords": [
+      "Battery-electric bus",
+      "Combinatorial Benders decomposition",
+      "Layover charging",
+      "Opportunity charging",
+      "Heuristics"
+    ],
+    "abstract": "",
+    "firstpage": "100209",
+    "lastpage": "",
+    "publication_date": "2025/12/1",
+    "online_date": "2025/10/3",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100209.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Public Transit"
+    ],
+    "bibtex": "@article{McCabe2025, \r\nauthor = {Dan McCabe and Xuegang (Jeff) Ban and Balaźs Kulcsár},\r\ntitle = {Minimum-delay opportunity charging scheduling for electricbuses},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {4},\r\nkeywords = {Battery-electric bus, Combinatorial Benders decomposition, Layover charging, Opportunity charging, Heuristics},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100209},\r\ndoi = {10.1016/j.commtr.2025.100209},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100217",
+    "title": "Corrigendum to “Interaction dataset of autonomous vehicles with traffic lights and signs”[Communications. Transp. Res. 5 (2025) 100201]",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100217",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Zheng Li",
+      "Zhipeng Bao",
+      "Haoming Meng",
+      "Haotian Shi",
+      "Qianwen Li",
+      "Handong Yao",
+      "Xiaopeng Li"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. Department of Computer Science,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "School of Environmental, Civil, Agricultural and Mechanical Engineering,University of Georgia, 30602-7229,",
+      "Department of Computer Science,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "College of Transportation Engineering,CHINA. Tongji University, 201804,CHINA. Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
+      "School of Environmental, Civil, Agricultural and Mechanical Engineering,University of Georgia, 30602-7229,",
+      "School of Environmental, Civil, Agricultural and Mechanical Engineering,University of Georgia, 30602-7229,",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. "
+    ],
+    "keywords": [
+      "Autonomous vehicles (AVs)",
+      "Traffic lights",
+      "Stop signs",
+      "Interaction data",
+      "Waymo motion dataset"
+    ],
+    "abstract": "",
+    "firstpage": "100217",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/10/13",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100217.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Li2025, \r\nauthor = {Zheng Li and Zhipeng Bao and Haoming Meng and Haotian Shi and Qianwen Li and Handong Yao and Xiaopeng Li},\r\ntitle = {Corrigendum to “Interaction dataset of autonomous vehicles with traffic lights and signs”[Communications. Transp. Res. 5 (2025) 100201]},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Autonomous vehicles (AVs), Traffic lights, Stop signs, Interaction data, Waymo motion dataset},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100217},\r\ndoi = {10.1016/j.commtr.2025.100217},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100211",
+    "title": "A knowledge-informed deep learning paradigm for generaliz-able and stability-optimized car-following models",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100211",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Chengming Wang",
+      "Dongyao Jia",
+      "Wei Wang",
+      "Dong Ngoduy",
+      "Bei Peng",
+      "Jianping Wang"
+    ],
+    "affiliations": [
+      "School of Advanced Technologies,Jiangsu,CHINA. Xi’an Jiaotong-liverpool University,Suzhou,Jiangsu,CHINA. ",
+      "School of Advanced Technologies,Jiangsu,CHINA. Xi’an Jiaotong-liverpool University,Suzhou,Jiangsu,CHINA. ",
+      "School of Advanced Technologies,Jiangsu,CHINA. Xi’an Jiaotong-liverpool University,Suzhou,Jiangsu,CHINA. ",
+      "Institute of Transport Studies,Monash University, 3800,",
+      "Department of Computer Science,University of Liverpool, L69 3GH,",
+      "Department of Computer Science,CHINA. City University of Hong Kong, 999077,CHINA. "
+    ],
+    "keywords": [
+      "Car-following models (CFMs)",
+      "Large language models (LLMs)",
+      "Knowledge distillation",
+      "Stability analysis",
+      "Deep learning"
+    ],
+    "abstract": "",
+    "firstpage": "100211",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/9/20",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100211.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Wang2025, \r\nauthor = {Chengming Wang and Dongyao Jia and Wei Wang and Dong Ngoduy and Bei Peng and Jianping Wang},\r\ntitle = {A knowledge-informed deep learning paradigm for generaliz-able and stability-optimized car-following models},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Car-following models (CFMs), Large language models (LLMs), Knowledge distillation, Stability analysis, Deep learning},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100211},\r\ndoi = {10.1016/j.commtr.2025.100211},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100210",
+    "title": "Hierarchical Bayesian threshold excess model for real-time vehicle-based conflict prediction in dynamic traffic environments",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100210",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Léah Camarcat",
+      "Yuxiang Feng",
+      "Nicolette Formosa",
+      "Mohammed Quddus"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,UNITED KINGDOM. Imperial College London, SW7 2AZ,UNITED KINGDOM. ",
+      "Department of Civil and Environmental Engineering,UNITED KINGDOM. Imperial College London, SW7 2AZ,UNITED KINGDOM. ",
+      "Digital lab, National Highways England,UNITED KINGDOM. ",
+      "Department of Civil and Environmental Engineering,UNITED KINGDOM. Imperial College London, SW7 2AZ,UNITED KINGDOM. "
+    ],
+    "keywords": [
+      "Extreme value theory",
+      "Conflict prediction",
+      "Vehicle-based risk assessment",
+      "Connected and autonomous vehicles (CAVs)",
+      "Hierarchical Bayesian model"
+    ],
+    "abstract": "",
+    "firstpage": "100210",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/9/18",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100210.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving",
+      "Data-driven and Machine Learning",
+      "Transportation Safety"
+    ],
+    "bibtex": "@article{Camarcat2025, \r\nauthor = {Léah Camarcat and Yuxiang Feng and Nicolette Formosa and Mohammed Quddus},\r\ntitle = {Hierarchical Bayesian threshold excess model for real-time vehicle-based conflict prediction in dynamic traffic environments},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Extreme value theory, Conflict prediction, Vehicle-based risk assessment, Connected and autonomous vehicles (CAVs), Hierarchical Bayesian model},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100210},\r\ndoi = {10.1016/j.commtr.2025.100210},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100208",
+    "title": "Perception strategies in low-altitude transportation: Single aircraft autonomous system vs. aircraft-ground-cloud integration system",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100208",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Yuhao Wang",
+      "Kai Wang",
+      "Jing Gong",
+      "Xiaobo Qu"
+    ],
+    "affiliations": [
+      "School of Vehicle and Mobility,CHINA. 清华大学, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. 清华大学, 100084,CHINA. ",
+      "Aerospace Times Low Altitude Technology Co., Ltd.,Chongqing,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. 清华大学, 100084,CHINA. "
+    ],
+    "keywords": [],
+    "abstract": "",
+    "firstpage": "100208",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/9/11",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100208.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Wang2025, \r\nauthor = {Yuhao Wang and Kai Wang and Jing Gong and Xiaobo Qu},\r\ntitle = {Perception strategies in low-altitude transportation: Single aircraft autonomous system vs. aircraft-ground-cloud integration system},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100208},\r\ndoi = {10.1016/j.commtr.2025.100208},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100207",
+    "title": "Toward developing socially compliant automated vehicles: Advances, expert insights, and a conceptual framework",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100207",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Yongqi Dong",
+      "Bart van Arem",
+      "Haneen Farah"
+    ],
+    "affiliations": [
+      "Faculty of Civil Engineering and Geosciences,Delft University of Technology, 1, 2628,Institute of Highway Engineering,GERMANY. RWTH Aachen University, 52074,GERMANY. ",
+      "Faculty of Civil Engineering and Geosciences,Delft University of Technology, 1, 2628,",
+      "Faculty of Civil Engineering and Geosciences,Delft University of Technology, 1, 2628,"
+    ],
+    "keywords": [
+      "Automated vehicles (AVs)",
+      "Socially compliant driving",
+      "Mixed traffic",
+      "Conceptual model",
+      "Scoping review"
+    ],
+    "abstract": "",
+    "firstpage": "100207",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/9/8",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100207.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Sustainable Transportation",
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Dong2025, \r\nauthor = {Yongqi Dong and Bart van Arem and Haneen Farah},\r\ntitle = {Toward developing socially compliant automated vehicles: Advances, expert insights, and a conceptual framework},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Automated vehicles (AVs), Socially compliant driving, Mixed traffic, Conceptual model, Scoping review},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100207},\r\ndoi = {10.1016/j.commtr.2025.100207},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100206",
+    "title": "Cross-city transfer learning: Applications and challenges for smart cities and sustainable transportation",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100206",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Ying Yang",
+      "Jiahao Zhan",
+      "Yang Liu",
+      "Qi Wang"
+    ],
+    "affiliations": [
+      "School of Management,CHINA. Shanghai University, 200444,CHINA. ",
+      "School of Management,CHINA. Shanghai University, 200444,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. State Key Laboratory of Intelligent Green Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Civil and Environmental Engineering,Northeastern University,"
+    ],
+    "keywords": [
+      "Cross-city",
+      "Transfer learning",
+      "Intelligent transportation",
+      "Smart city"
+    ],
+    "abstract": "",
+    "firstpage": "100206",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/9/3",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100206.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Intelligent Transportation Systems",
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Yang2025, \r\nauthor = {Ying Yang and Jiahao Zhan and Yang Liu and Qi Wang},\r\ntitle = {Cross-city transfer learning: Applications and challenges for smart cities and sustainable transportation},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Cross-city, Transfer learning, Intelligent transportation, Smart city},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100206},\r\ndoi = {10.1016/j.commtr.2025.100206},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100205",
+    "title": "Privacy-preserving personalized pricing and matching for ride hailing platforms",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100205",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Bing Song",
+      "Sisi Jian"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,CHINA. The Hong Kong University of Science and Technology,CHINA. ",
+      "Department of Civil and Environmental Engineering,CHINA. The Hong Kong University of Science and Technology,CHINA. "
+    ],
+    "keywords": [
+      "Privacy-preserving",
+      "Personalized pricing and matching",
+      "Ride-hailing",
+      "Differential privacy"
+    ],
+    "abstract": "",
+    "firstpage": "100205",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/9/11",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100205.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Mobility as a Service"
+    ],
+    "bibtex": "@article{Song2025, \r\nauthor = {Bing Song and Sisi Jian},\r\ntitle = {Privacy-preserving personalized pricing and matching for ride hailing platforms},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Privacy-preserving, Personalized pricing and matching, Ride-hailing, Differential privacy},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100205},\r\ndoi = {10.1016/j.commtr.2025.100205},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100204",
+    "title": "Safety assurance adaptive control for modular autonomous vehicles",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100204",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Chengyuan Ma",
+      "Hang Zhou",
+      "Peng Zhang",
+      "Ke Ma",
+      "Haotian Shi",
+      "Xiaopeng Li"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,",
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,",
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,",
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,",
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,",
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,"
+    ],
+    "keywords": [
+      "Autonomous vehicles (AVs)",
+      "Modular vehicle",
+      "Safety assurance control",
+      "Adaptive control",
+      "Field test"
+    ],
+    "abstract": "",
+    "firstpage": "100204",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/9/3",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100204.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving",
+      "Transportation Safety"
+    ],
+    "bibtex": "@article{Ma2025, \r\nauthor = {Chengyuan Ma and Hang Zhou and Peng Zhang and Ke Ma and Haotian Shi and Xiaopeng Li},\r\ntitle = {Safety assurance adaptive control for modular autonomous vehicles},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Autonomous vehicles (AVs), Modular vehicle, Safety assurance control, Adaptive control, Field test},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100204},\r\ndoi = {10.1016/j.commtr.2025.100204},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100203",
+    "title": "Towards fair lights: A multi-agent masked deep reinforcement learning for efficient corridor-level traffic signal control",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100203",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Xiaocai Zhang",
+      "Lok Sang Chan",
+      "Neema Nassir",
+      "Majid Sarvi"
+    ],
+    "affiliations": [
+      "Department of Infrastructure Engineering,AUSTRALIA. Faculty of Engineering and Information Technology,AUSTRALIA. The University of Melbourne, 3010,AUSTRALIA. ",
+      "Department of Infrastructure Engineering,AUSTRALIA. Faculty of Engineering and Information Technology,AUSTRALIA. The University of Melbourne, 3010,AUSTRALIA. ",
+      "Department of Infrastructure Engineering,AUSTRALIA. Faculty of Engineering and Information Technology,AUSTRALIA. The University of Melbourne, 3010,AUSTRALIA. ",
+      "Department of Infrastructure Engineering,AUSTRALIA. Faculty of Engineering and Information Technology,AUSTRALIA. The University of Melbourne, 3010,AUSTRALIA. "
+    ],
+    "keywords": [
+      "Adaptive traffic signal control (ATSC)",
+      "Multi-agent",
+      "Fairness",
+      "Deep reinforcement learning (DRL)",
+      "Mask"
+    ],
+    "abstract": "",
+    "firstpage": "100203",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/8/11",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100203.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Intelligent Transportation Systems",
+      "Data-driven and Machine Learning",
+      "Sustainable Transportation"
+    ],
+    "bibtex": "@article{Zhang2025, \r\nauthor = {Xiaocai Zhang and Lok Sang Chan and Neema Nassir and Majid Sarvi},\r\ntitle = {Towards fair lights: A multi-agent masked deep reinforcement learning for efficient corridor-level traffic signal control},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Adaptive traffic signal control (ATSC), Multi-agent, Fairness, Deep reinforcement learning (DRL), Mask},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100203},\r\ndoi = {10.1016/j.commtr.2025.100203},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100202",
+    "title": "Beyond conventional vision: RGB-event fusion for robust object detection in dynamic traffic scenarios",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100202",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Zhanwen Liu",
+      "Yujing Sun",
+      "Yang Wang",
+      "Nan Yang",
+      "Shengbo Eben Li",
+      "Xiangmo Zhao"
+    ],
+    "affiliations": [
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. ",
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. ",
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. ",
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. ",
+      "College of AI,CHINA. Tsinghua University, 100084,CHINA. School of Vehicle Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. "
+    ],
+    "keywords": [
+      "dynamic traffic environments",
+      "object detection",
+      "multimodal fusion",
+      "event camera"
+    ],
+    "abstract": "",
+    "firstpage": "100202",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/8/18",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100202.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Sustainable Transportation",
+      "Public Transit"
+    ],
+    "bibtex": "@article{Liu2025, \r\nauthor = {Zhanwen Liu and Yujing Sun and Yang Wang and Nan Yang and Shengbo Eben Li and Xiangmo Zhao},\r\ntitle = {Beyond conventional vision: RGB-event fusion for robust object detection in dynamic traffic scenarios},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {dynamic traffic environments, object detection, multimodal fusion, event camera},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100202},\r\ndoi = {10.1016/j.commtr.2025.100202},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100201",
+    "title": "Interaction dataset of autonomous vehicles with traffic lights and signs",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100201",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Zheng Li",
+      "Zhipeng Bao",
+      "Haoming Meng",
+      "Haotian Shi",
+      "Qianwen Li",
+      "Handong Yao",
+      "Xiaopeng Li"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,Department of Computer Science,University of Wisconsin–Madison,",
+      "School of Environmental, Civil, Agricultural and Mechanical Engineering,University of Georgia, 30602-7229,",
+      "Department of Computer Science,University of Wisconsin–Madison,",
+      "College of Transportation Engineering,CHINA. Tongji University, 201804,CHINA. Department of Civil and Environmental Engineering,University of Wisconsin–Madison,",
+      "School of Environmental, Civil, Agricultural and Mechanical Engineering,University of Georgia, 30602-7229,",
+      "School of Environmental, Civil, Agricultural and Mechanical Engineering,University of Georgia, 30602-7229,",
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,"
+    ],
+    "keywords": [
+      "Autonomous vehicles (AVs)",
+      "Traffic lights",
+      "Stop signs",
+      "Interaction data",
+      "Waymo motion dataset"
+    ],
+    "abstract": "",
+    "firstpage": "100201",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/8/22",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100201.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Li2025, \r\nauthor = {Zheng Li and Zhipeng Bao and Haoming Meng and Haotian Shi and Qianwen Li and Handong Yao and Xiaopeng Li},\r\ntitle = {Interaction dataset of autonomous vehicles with traffic lights and signs},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Autonomous vehicles (AVs), Traffic lights, Stop signs, Interaction data, Waymo motion dataset},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100201},\r\ndoi = {10.1016/j.commtr.2025.100201},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100200",
+    "title": "Enhanced trajectory reconstruction from sparse and noisy GPS data: A progressive chunked transformer approach",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100200",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Yonghui Liu",
+      "Qian Li",
+      "Inhi Kim"
+    ],
+    "affiliations": [
+      "Cho Chun Shik Graduate School of Mobility,Korea Advanced Institute of Science and Technology, 305-701,",
+      "Donghai Laboratory,Zhejiang,CHINA. ",
+      "Cho Chun Shik Graduate School of Mobility,Korea Advanced Institute of Science and Technology, 305-701,"
+    ],
+    "keywords": [
+      "Trajectory reconstruction",
+      "Transformer",
+      "Chunked processing",
+      "Heuristic-informed",
+      "Parallel computing"
+    ],
+    "abstract": "",
+    "firstpage": "100200",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/8/2",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100200.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [],
+    "bibtex": "@article{Liu2025, \r\nauthor = {Yonghui Liu and Qian Li and Inhi Kim},\r\ntitle = {Enhanced trajectory reconstruction from sparse and noisy GPS data: A progressive chunked transformer approach},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Trajectory reconstruction, Transformer, Chunked processing, Heuristic-informed, Parallel computing},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100200},\r\ndoi = {10.1016/j.commtr.2025.100200},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100199",
+    "title": "Advancing transportation research: interdisciplinary insights from emerging technologies and diverse perspectives",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100199",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Mingyang Pei",
+      "Zhuoyan Wei",
+      "Xin Pei",
+      "Yu Zhang",
+      "Xiaokun Cara Wang",
+      "Yang Liu",
+      "Ronghui Liu"
+    ],
+    "affiliations": [
+      "School of Civil and Transportation Engineering,CHINA. South China University of Technology,CHINA. ",
+      "School of Civil and Transportation Engineering,CHINA. South China University of Technology,CHINA. ",
+      "Department of Automation,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Civil and Environmental Engineering,University of South Florida, 33620,",
+      "Civil and Environmental Engineering,School of Engineering,Rensselaer Polytechnic Institute, 12180,",
+      "Department of Industrial Systems Engineering and Management,SINGAPORE. National University of Singapore, 119077,SINGAPORE. ",
+      "Institute for Transport Studies,Faculty of Environment,University of Leeds, LS2 9JT,"
+    ],
+    "keywords": [],
+    "abstract": "",
+    "firstpage": "100199",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/7/22",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100199.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [],
+    "bibtex": "@article{Pei2025, \r\nauthor = {Mingyang Pei and Zhuoyan Wei and Xin Pei and Yu Zhang and Xiaokun Cara Wang and Yang Liu and Ronghui Liu},\r\ntitle = {Advancing transportation research: interdisciplinary insights from emerging technologies and diverse perspectives},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100199},\r\ndoi = {10.1016/j.commtr.2025.100199},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100198",
+    "title": "Strategic roles of female scholars in steering transportation research agendas",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100198",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Mingyang Pei",
+      "Zisen Lin",
+      "Xiao Fu",
+      "Xin Pei"
+    ],
+    "affiliations": [
+      "School of Civil Engineering and Transportation,CHINA. South China University of Technology,CHINA. ",
+      "School of Civil Engineering and Transportation,CHINA. South China University of Technology,CHINA. ",
+      "School of Geography,CHINA. Nanjing Normal University, 210023,CHINA. ",
+      "Department of Automation,CHINA. Tsinghua University, 100084,CHINA. "
+    ],
+    "keywords": [
+      "Gender disparities",
+      "Transportation research",
+      "Collaboration patterns",
+      "Bibliometric analysis"
+    ],
+    "abstract": "",
+    "firstpage": "100198",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/7/18",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100198.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [],
+    "bibtex": "@article{Pei2025, \r\nauthor = {Mingyang Pei and Zisen Lin and Xiao Fu and Xin Pei},\r\ntitle = {Strategic roles of female scholars in steering transportation research agendas},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Gender disparities, Transportation research, Collaboration patterns, Bibliometric analysis},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100198},\r\ndoi = {10.1016/j.commtr.2025.100198},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100197",
+    "title": "Compensation scheme and split delivery in a collaborative passenger-parcel transportation system",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100197",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Yitong Yu",
+      "Kechen Ouyang",
+      "Qingyun Tian",
+      "David Z.W. Wang"
+    ],
+    "affiliations": [
+      "School of Civil and Environmental Engineering,SINGAPORE. Nanyang Technological University, Singapore,SINGAPORE. ",
+      "School of Civil and Environmental Engineering,SINGAPORE. Nanyang Technological University, Singapore,SINGAPORE. ",
+      "School of Civil and Environmental Engineering,SINGAPORE. Nanyang Technological University, Singapore,SINGAPORE. ",
+      "School of Civil and Environmental Engineering,SINGAPORE. Nanyang Technological University, Singapore,SINGAPORE. "
+    ],
+    "keywords": [
+      "Collaborative transport",
+      "Scheme design in split delivery vehicle routing problem with time windows (SDVRPTW)",
+      "Compensation scheme design"
+    ],
+    "abstract": "",
+    "firstpage": "100197",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/7/19",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100197.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Network Design"
+    ],
+    "bibtex": "@article{Yu2025, \r\nauthor = {Yitong Yu and Kechen Ouyang and Qingyun Tian and David Z.W. Wang},\r\ntitle = {Compensation scheme and split delivery in a collaborative passenger-parcel transportation system},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Collaborative transport, Scheme design in split delivery vehicle routing problem with time windows (SDVRPTW), Compensation scheme design},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100197},\r\ndoi = {10.1016/j.commtr.2025.100197},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100196",
+    "title": "Should autonomous vehicles be subsidized to reduce parking fees? A productivity perspective",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100196",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Yao Li",
+      "Ziyue Yang",
+      "Tao Wang",
+      "Shuxian Xu",
+      "Jiancheng Long"
+    ],
+    "affiliations": [
+      "School of Automotive and Transportation Engineering,CHINA. Hefei University of Technology, 230009,CHINA. ",
+      "School of Automotive and Transportation Engineering,CHINA. Hefei University of Technology, 230009,CHINA. ",
+      "School of Automotive and Transportation Engineering,CHINA. Hefei University of Technology, 230009,CHINA. ",
+      "Department of College of Management and Economics,CHINA. Tianjin University, 300072,CHINA. ",
+      "School of Automotive and Transportation Engineering,CHINA. Hefei University of Technology, 230009,CHINA. "
+    ],
+    "keywords": [
+      "Autonomous vehicles (AVs)",
+      "Parking subsidy",
+      "City characteristics",
+      "Parking cash-out"
+    ],
+    "abstract": "",
+    "firstpage": "100196",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/7/16",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100196.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Li2025, \r\nauthor = {Yao Li and Ziyue Yang and Tao Wang and Shuxian Xu and Jiancheng Long},\r\ntitle = {Should autonomous vehicles be subsidized to reduce parking fees? A productivity perspective},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Autonomous vehicles (AVs), Parking subsidy, City characteristics, Parking cash-out},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100196},\r\ndoi = {10.1016/j.commtr.2025.100196},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100195",
+    "title": "A hybrid centralized-decentralized traffic control framework for unmanned aerial vehicles in urban low-altitude airspace",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100195",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Xiangdong Chen",
+      "Shen Li",
+      "Meng Li"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,  National University of Singapore,",
+      "Department of Civil Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Civil Engineering,CHINA. Tsinghua University, 100084,CHINA. "
+    ],
+    "keywords": [
+      "Urban air mobility",
+      "Unmanned aerial vehicle",
+      "Low-altitude airspace",
+      "Air traffic control",
+      "Conflict-free"
+    ],
+    "abstract": "",
+    "firstpage": "100195",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/7/17",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100195.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Intelligent Transportation Systems"
+    ],
+    "bibtex": "@article{Chen2025, \r\nauthor = {Xiangdong Chen and Shen Li and Meng Li},\r\ntitle = {A hybrid centralized-decentralized traffic control framework for unmanned aerial vehicles in urban low-altitude airspace},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Urban air mobility, Unmanned aerial vehicle, Low-altitude airspace, Air traffic control, Conflict-free},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100195},\r\ndoi = {10.1016/j.commtr.2025.100195},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100194",
+    "title": "Few-shot learning for novel object detection in autonomous driving",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100194",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Yifan Zhuang",
+      "Pei Liu",
+      "Hao Yang",
+      "Kai Zhang",
+      "Yinhai Wang",
+      "Ziyuan Pu"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,University of Washington, 98195,",
+      "Intelligent Transportation Thrust,Guangzhou,Guangdong,CHINA. The Hong Kong University of Science and Technology (Guangzhou),Guangzhou,Guangdong,CHINA. ",
+      "Department of Civil and Environmental Engineering,University of Washington, 98195,",
+      "Tsinghua Shenzhen International Graduate School,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Civil and Environmental Engineering,University of Washington, 98195,",
+      "School of Transportation,Jiangsu,CHINA.  Southeast University,Nanjing,Jiangsu,CHINA. "
+    ],
+    "keywords": [
+      "Few-shot learning",
+      "Computer vision",
+      "Autonomous driving",
+      "Object detection"
+    ],
+    "abstract": "",
+    "firstpage": "100194",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/7/16",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100194.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Zhuang2025, \r\nauthor = {Yifan Zhuang and Pei Liu and Hao Yang and Kai Zhang and Yinhai Wang and Ziyuan Pu},\r\ntitle = {Few-shot learning for novel object detection in autonomous driving},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Few-shot learning, Computer vision, Autonomous driving, Object detection},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100194},\r\ndoi = {10.1016/j.commtr.2025.100194},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100193",
+    "title": "Urban visual clusters and road transport fatalities: A global city-level image analysis",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100193",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Zhuangyuan Fan",
+      "Becky P.Y. Loo"
+    ],
+    "affiliations": [
+      "Department of Geography, The University of Hong Kong,",
+      "Department of Geography, The University of Hong Kong,"
+    ],
+    "keywords": [
+      "Road safety",
+      "Image analysis",
+      "Urban visual clusters",
+      "Streetscape",
+      "Built environment",
+      "Urban design"
+    ],
+    "abstract": "",
+    "firstpage": "100193",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/7/3",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100193.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Transportation Safety",
+      "Sustainable Transportation"
+    ],
+    "bibtex": "@article{Fan2025, \r\nauthor = {Zhuangyuan Fan and Becky P.Y. Loo},\r\ntitle = {Urban visual clusters and road transport fatalities: A global city-level image analysis},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Road safety, Image analysis, Urban visual clusters, Streetscape, Built environment, Urban design},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100193},\r\ndoi = {10.1016/j.commtr.2025.100193},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100189",
+    "title": "CCDSReFormer: Traffic flow prediction with a criss-crossed dual-stream enhanced rectified transformer model",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100189",
+    "volume": "5",
+    "issue": "3",
+    "authors": [
+      "Zhiqi Shao",
+      "Michael G.H. Bell",
+      "Ze Wang",
+      "D. Glenn Geers",
+      "Xusheng Yao",
+      "Junbin Gao"
+    ],
+    "affiliations": [
+      "Institute of Transport and Logistics Studies, Business School,AUSTRALIA. The University of Sydney,AUSTRALIA. ",
+      "Institute of Transport and Logistics,AUSTRALIA. The University of Sydney,AUSTRALIA. ",
+      "Institute of Transport and Logistics,AUSTRALIA. The University of Sydney,AUSTRALIA. ",
+      "Institute of Transport and Logistics,AUSTRALIA. The University of Sydney,AUSTRALIA. ",
+      "School of Business Administration,Northeastern University,",
+      "Institute of Transport and Logistics Studies, Business School,AUSTRALIA. The University of Sydney,AUSTRALIA. "
+    ],
+    "keywords": [
+      "Time series prediction",
+      "Spatial–temporal",
+      "Traffic enhancement",
+      "Transformer",
+      "Traffic flow prediction",
+      "Multi-variate time series",
+      "Mode three tensor"
+    ],
+    "abstract": "",
+    "firstpage": "100189",
+    "lastpage": "",
+    "publication_date": "2025/9/1",
+    "online_date": "2025/7/23",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100189.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Traffic Flow"
+    ],
+    "bibtex": "@article{Shao2025, \r\nauthor = {Zhiqi Shao and Michael G.H. Bell and Ze Wang and D. Glenn Geers and Xusheng Yao and Junbin Gao},\r\ntitle = {CCDSReFormer: Traffic flow prediction with a criss-crossed dual-stream enhanced rectified transformer model},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Time series prediction, Spatial–temporal, Traffic enhancement, Transformer, Traffic flow prediction, Multi-variate time series, Mode three tensor},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100189},\r\ndoi = {10.1016/j.commtr.2025.100189},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100192",
+    "title": "SAFER-predictor: Sparse adversarial training framework for robust traffic prediction under missing and noisy data",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100192",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Yutian Liu",
+      "Chengfeng Jia",
+      "Soora Rasouli",
+      "Jian Gong",
+      "Tao Feng",
+      "Melvin Wong",
+      "Tianjin Huang"
+    ],
+    "affiliations": [
+      "School of Urban Planning and Design,CHINA. Peking University Shenzhen Graduate School,CHINA. ",
+      "Centre for Advanced Robotics Technology Innovation,SINGAPORE. Nanyang Technological University, 639798,SINGAPORE. ",
+      "Department of Built Environment,NETHERLANDS. Eindhoven University of Technology, 5600MB,NETHERLANDS. ",
+      "College of Automation,CHINA. College of Artificial Intelligence,CHINA. Nanjing University of Posts and Telecommunications, 210003,CHINA. ",
+      "Urban and Data Science Lab,JAPAN. Graduate School of Advanced Science and Engineering,JAPAN. Hiroshima University,JAPAN. ",
+      "Department of Built Environment,NETHERLANDS. Eindhoven University of Technology, 5600MB,NETHERLANDS. ",
+      "Department of Computer Science,University of Exeter, EX4 4QF,"
+    ],
+    "keywords": [
+      "Traffic prediction",
+      "Adversarial training (AT)",
+      "Graph neural network",
+      "Deep learning",
+      "Missing data",
+      "Prediction robustness"
+    ],
+    "abstract": "",
+    "firstpage": "100192",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/26",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100192.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Liu2025, \r\nauthor = {Yutian Liu and Chengfeng Jia and Soora Rasouli and Jian Gong and Tao Feng and Melvin Wong and Tianjin Huang},\r\ntitle = {SAFER-predictor: Sparse adversarial training framework for robust traffic prediction under missing and noisy data},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Traffic prediction, Adversarial training (AT), Graph neural network, Deep learning, Missing data, Prediction robustness},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100192},\r\ndoi = {10.1016/j.commtr.2025.100192},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100191",
+    "title": "Towards robust motion control in multi-source uncertain scenarios by robust policy iteration",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100191",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Jie Li",
+      "Letian Tao",
+      "Wenjun Zou",
+      "Yuhang Zhang",
+      "Bin Shuai",
+      "Jingliang Duan",
+      "Shengbo Eben Li",
+      "Hao Sun",
+      "Yiru Wang",
+      "Yu Gao",
+      "Yuwen Heng",
+      "Anqing Jiang"
+    ],
+    "affiliations": [
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. College of Artificial Intelligence,CHINA. Tsinghua University, 100084,CHINA. ",
+      "BOSCH Corporate Research,Shanghai,CHINA. ",
+      "BOSCH Corporate Research,Shanghai,CHINA. ",
+      "BOSCH Corporate Research,Shanghai,CHINA. ",
+      "BOSCH Corporate Research,Shanghai,CHINA. ",
+      "BOSCH Corporate Research,Shanghai,CHINA. "
+    ],
+    "keywords": [
+      "Intelligent vehicle",
+      "Robust control",
+      "Zero-sum game",
+      "Reinforcement learning (RL)"
+    ],
+    "abstract": "",
+    "firstpage": "100191",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/20",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100191.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Public Transit",
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Li2025, \r\nauthor = {Jie Li and Letian Tao and Wenjun Zou and Yuhang Zhang and Bin Shuai and Jingliang Duan and Shengbo Eben Li and Hao Sun and Yiru Wang and Yu Gao and Yuwen Heng and Anqing Jiang},\r\ntitle = {Towards robust motion control in multi-source uncertain scenarios by robust policy iteration},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Intelligent vehicle, Robust control, Zero-sum game, Reinforcement learning (RL)},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100191},\r\ndoi = {10.1016/j.commtr.2025.100191},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100190",
+    "title": "Situational awareness using set-based estimation and vehicular communication: An occluded pedestrian-crossing scenario",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100190",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Vandana Narri",
+      "Amr Alanwar",
+      "Jonas Mårtensson",
+      "Henrik Pettersson",
+      "Fredrik Nordin",
+      "Karl Henrik Johansson"
+    ],
+    "affiliations": [
+      "School of Electrical Engineering and Computer Science,SWEDEN. KTH Royal Institute of Technology, 11428,SWEDEN. Autonomous Transport Systems, Research and Development,SWEDEN. Scania CV AB,SWEDEN. ",
+      "School of Computation, Information and Technology,GERMANY. Technical University of Munich,GERMANY. ",
+      "School of Electrical Engineering and Computer Science,SWEDEN. KTH Royal Institute of Technology, 11428,SWEDEN. ",
+      "Autonomous Transport Systems, Research and Development,SWEDEN. Scania CV AB,SWEDEN. ",
+      "Autonomous Transport Systems, Research and Development,SWEDEN. Scania CV AB,SWEDEN. ",
+      "School of Electrical Engineering and Computer Science,SWEDEN. KTH Royal Institute of Technology, 11428,SWEDEN. "
+    ],
+    "keywords": [
+      "Set-based estimation",
+      "Safety guarantees",
+      "Vehicle-to-everything (V2X) communication",
+      "Shared situational awareness"
+    ],
+    "abstract": "",
+    "firstpage": "100190",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/11",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100190.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Transportation Safety",
+      "Connected Vehicles",
+      "Sustainable Transportation"
+    ],
+    "bibtex": "@article{Narri2025, \r\nauthor = {Vandana Narri and Amr Alanwar and Jonas Mårtensson and Henrik Pettersson and Fredrik Nordin and Karl Henrik Johansson},\r\ntitle = {Situational awareness using set-based estimation and vehicular communication: An occluded pedestrian-crossing scenario},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Set-based estimation, Safety guarantees, Vehicle-to-everything (V2X) communication, Shared situational awareness},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100190},\r\ndoi = {10.1016/j.commtr.2025.100190},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100188",
+    "title": "Integrating micro and macro traffic control for mixed autonomy traffic",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100188",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Tingting Fan",
+      "Jieming Chen",
+      "Edward Chung"
+    ],
+    "affiliations": [
+      "Department of Electrical and Electronic Engineering,Hong Kong,CHINA. The Hong Kong Polytechnic University Hung Hom,Hong Kong,CHINA. ",
+      "Department of Electrical and Electronic Engineering,Hong Kong,CHINA. The Hong Kong Polytechnic University Hung Hom,Hong Kong,CHINA. ",
+      "Department of Electrical and Electronic Engineering,Hong Kong,CHINA. The Hong Kong Polytechnic University Hung Hom,Hong Kong,CHINA. "
+    ],
+    "keywords": [
+      "Connected autonomous vehicle (CAV)",
+      "Cooperative merging",
+      "Mixed traffic",
+      "Ramp metering"
+    ],
+    "abstract": "",
+    "firstpage": "100188",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/10",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100188.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving",
+      "Intelligent Transportation Systems"
+    ],
+    "bibtex": "@article{Fan2025, \r\nauthor = {Tingting Fan and Jieming Chen and Edward Chung},\r\ntitle = {Integrating micro and macro traffic control for mixed autonomy traffic},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Connected autonomous vehicle (CAV), Cooperative merging, Mixed traffic, Ramp metering},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100188},\r\ndoi = {10.1016/j.commtr.2025.100188},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100187",
+    "title": "Customized recursive model for drivers’ navigation compliance behaviors under abnormal events",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100187",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Kaijie Zou",
+      "Yaming Guo",
+      "Ke Zhang",
+      "Meng Li"
+    ],
+    "affiliations": [
+      "Department of Civil Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Civil Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Civil Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Civil Engineering,CHINA. Tsinghua University, 100084,CHINA. "
+    ],
+    "keywords": [
+      "Route choice behavior",
+      "Recursive logit",
+      "Smart navigation system",
+      "Traffic resilience"
+    ],
+    "abstract": "",
+    "firstpage": "100187",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/23",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100187.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Zou2025, \r\nauthor = {Kaijie Zou and Yaming Guo and Ke Zhang and Meng Li},\r\ntitle = {Customized recursive model for drivers’ navigation compliance behaviors under abnormal events},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Route choice behavior, Recursive logit, Smart navigation system, Traffic resilience},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100187},\r\ndoi = {10.1016/j.commtr.2025.100187},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100186",
+    "title": "A sustainable multi-objective framework for multi-phased, capacitated vertiport siting with land use integration",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100186",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Hao Wu",
+      "Shahriar Iqbal Zame",
+      "Tao Guo",
+      "Qing-Long Lu",
+      "Constantinos Antoniou"
+    ],
+    "affiliations": [
+      "Chair of Transportation Systems Engineering,GERMANY. Technical University of Munich,GERMANY. ",
+      "Chair of Transportation Systems Engineering,GERMANY. Technical University of Munich,GERMANY. ",
+      "Chair of Transportation Systems Engineering,GERMANY. Technical University of Munich,GERMANY. ",
+      "Department of Civil and Environmental Engineering,  National University of Singapore,Chair of Transportation Systems Engineering,GERMANY. Technical University of Munich,GERMANY. ",
+      "Chair of Transportation Systems Engineering,GERMANY. Technical University of Munich,GERMANY. "
+    ],
+    "keywords": [
+      "Smart cities",
+      "Emerging mobilities",
+      "Urban air mobility (UAM)",
+      "Modular flying vehicle (MFV)",
+      "Multi-phased siting",
+      "Incremental technology integration"
+    ],
+    "abstract": "",
+    "firstpage": "100186",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/18",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100186.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Wu2025, \r\nauthor = {Hao Wu and Shahriar Iqbal Zame and Tao Guo and Qing-Long Lu and Constantinos Antoniou},\r\ntitle = {A sustainable multi-objective framework for multi-phased, capacitated vertiport siting with land use integration},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Smart cities, Emerging mobilities, Urban air mobility (UAM), Modular flying vehicle (MFV), Multi-phased siting, Incremental technology integration},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100186},\r\ndoi = {10.1016/j.commtr.2025.100186},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100185",
+    "title": "A parsimonious model for classifying the traffic state of urban road networks: A two-stage regression approach",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100185",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Wei Huang",
+      "Dalin Tang",
+      "Xin Qiao",
+      "Guojun Chen"
+    ],
+    "affiliations": [
+      "School of Intelligent Systems Engineering,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "School of Intelligent Systems Engineering,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "School of Intelligent Systems Engineering,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "School of Transportation and Logistics Engineering,CHINA. Wuhan University of Technology, 430070,CHINA. "
+    ],
+    "keywords": [
+      "Traffic state classification",
+      "Number of state categories",
+      "Hybrid clustering",
+      "Two-stage regression analysis",
+      "Regression model"
+    ],
+    "abstract": "",
+    "firstpage": "100185",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/5",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100185.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Huang2025, \r\nauthor = {Wei Huang and Dalin Tang and Xin Qiao and Guojun Chen},\r\ntitle = {A parsimonious model for classifying the traffic state of urban road networks: A two-stage regression approach},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Traffic state classification, Number of state categories, Hybrid clustering, Two-stage regression analysis, Regression model},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100185},\r\ndoi = {10.1016/j.commtr.2025.100185},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100184",
+    "title": "MetaSSC: Enhancing 3D semantic scene completion for autonomous driving through meta-learning and long-sequence modeling",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100184",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Yansong Qu",
+      "Zixuan Xu",
+      "Zilin Huang",
+      "Zihao Sheng",
+      "Sikai Chen",
+      "Tiantian Chen"
+    ],
+    "affiliations": [
+      "Lyles School of Civil and Construction Engineering,Purdue University, 47907,",
+      "Cho Chun Shik Graduate School of Mobility,Korea Advanced Institute of Science and Technology (KAIST),",
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,",
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,",
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,",
+      "Cho Chun Shik Graduate School of Mobility,Korea Advanced Institute of Science and Technology (KAIST),"
+    ],
+    "keywords": [
+      "Three-dimensional (3D) semantic scene completion",
+      "Autonomous driving",
+      "Meta-learning",
+      "Deformable large-kernel attention",
+      "State space model"
+    ],
+    "abstract": "",
+    "firstpage": "100184",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/5/28",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100184.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Qu2025, \r\nauthor = {Yansong Qu and Zixuan Xu and Zilin Huang and Zihao Sheng and Sikai Chen and Tiantian Chen},\r\ntitle = {MetaSSC: Enhancing 3D semantic scene completion for autonomous driving through meta-learning and long-sequence modeling},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Three-dimensional (3D) semantic scene completion, Autonomous driving, Meta-learning, Deformable large-kernel attention, State space model},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100184},\r\ndoi = {10.1016/j.commtr.2025.100184},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100183",
+    "title": "A multiagent social interaction model for autonomous vehicle testing",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100183",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Shihan Wang",
+      "Ying Ni",
+      "Chengsheng Miao",
+      "Jian Sun",
+      "Jie Sun"
+    ],
+    "affiliations": [
+      "Key Laboratory of Road and Traffic Engineering, Ministry of Education,CHINA. Department of Traffic Engineering,CHINA. Tongji University, 201804,CHINA. ",
+      "Key Laboratory of Road and Traffic Engineering, Ministry of Education,CHINA. Department of Traffic Engineering,CHINA. Tongji University, 201804,CHINA. ",
+      "Guangzhou Automobile Group Co. Ltd.,Guangzhou,Guangdong,CHINA. ",
+      "Key Laboratory of Road and Traffic Engineering, Ministry of Education,CHINA. Department of Traffic Engineering,CHINA. Tongji University, 201804,CHINA. ",
+      "Key Laboratory of Road and Traffic Engineering, Ministry of Education,CHINA. Department of Traffic Engineering,CHINA. Tongji University, 201804,CHINA. "
+    ],
+    "keywords": [
+      "Autonomous vehicle testing",
+      "Social interaction modeling",
+      "Multiagent imitation learning",
+      "Social value orientation",
+      "Temporal–spatial attention"
+    ],
+    "abstract": "",
+    "firstpage": "100183",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/10",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100183.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Wang2025, \r\nauthor = {Shihan Wang and Ying Ni and Chengsheng Miao and Jian Sun and Jie Sun},\r\ntitle = {A multiagent social interaction model for autonomous vehicle testing},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Autonomous vehicle testing, Social interaction modeling, Multiagent imitation learning, Social value orientation, Temporal–spatial attention},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100183},\r\ndoi = {10.1016/j.commtr.2025.100183},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100182",
+    "title": "Closed-loop coordination of connected and automated vehicles in structured road networks",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100182",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Shijie Cong",
+      "Mingyu Zheng",
+      "Wei Zhang",
+      "Yiming Bie",
+      "Emilian Szczepański"
+    ],
+    "affiliations": [
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Transportation,Jilin,CHINA.  Jilin University,Changchun,Jilin,CHINA. ",
+      "Faculty of Transport,POLAND. Warsaw University of Technology,POLAND. "
+    ],
+    "keywords": [],
+    "abstract": "",
+    "firstpage": "100182",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/3/2",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100182.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [],
+    "bibtex": "@article{Cong2025, \r\nauthor = {Shijie Cong and Mingyu Zheng and Wei Zhang and Yiming Bie and Emilian Szczepański},\r\ntitle = {Closed-loop coordination of connected and automated vehicles in structured road networks},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100182},\r\ndoi = {10.1016/j.commtr.2025.100182},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100181",
+    "title": "Traffic simulation optimization considering driving styles",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100181",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Yunyang Shi",
+      "Tong Wu",
+      "Tan Guo",
+      "Jinbiao Huo",
+      "Ziyuan Gu",
+      "Yifan Dai",
+      "Zhiyuan Liu"
+    ],
+    "affiliations": [
+      "School of Transportation,Jiangsu,CHINA.  Southeast University,Nanjing,Jiangsu,CHINA. ",
+      "Department of Civil Engineering,MALAYSIA. Monash University Malaysia,MALAYSIA. ",
+      "Zhejiang Expressway Information Engineering and Technology Co., Ltd.,CHINA. ",
+      "Department of Civil and Environmental Engineering,University of Wisconsin–Madison,",
+      "School of Transportation,Jiangsu,CHINA.  Southeast University,Nanjing,Jiangsu,CHINA. ",
+      "Tsinghua University Suzhou Automotive Research Institute,Suzhou,Jiangsu,CHINA. ",
+      "School of Transportation,Jiangsu,CHINA.  Southeast University,Nanjing,Jiangsu,CHINA. "
+    ],
+    "keywords": [
+      "Expected speed",
+      "parameter calibration",
+      "Bayesian optimization",
+      "Microscopic traffic simulation",
+      "Driving style"
+    ],
+    "abstract": "",
+    "firstpage": "100181",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/5/29",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100181.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [],
+    "bibtex": "@article{Shi2025, \r\nauthor = {Yunyang Shi and Tong Wu and Tan Guo and Jinbiao Huo and Ziyuan Gu and Yifan Dai and Zhiyuan Liu},\r\ntitle = {Traffic simulation optimization considering driving styles},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Expected speed, parameter calibration, Bayesian optimization, Microscopic traffic simulation, Driving style},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100181},\r\ndoi = {10.1016/j.commtr.2025.100181},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100180",
+    "title": "Next leap in the sustainable transport revolution: Identifying gaps and proposing solutions for hydrogen mobility",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100180",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Fangjie Liu",
+      "Muhammad Shafique",
+      "Xiaowei Luo"
+    ],
+    "affiliations": [
+      "Department of Architecture and Civil Engineering,CHINA. City University of Hong Kong, 999077,CHINA. ",
+      "Department of Civil and Environmental Engineering,UNITED KINGDOM. Brunel University London,UNITED KINGDOM. ",
+      "Department of Architecture and Civil Engineering,CHINA. City University of Hong Kong, 999077,CHINA. "
+    ],
+    "keywords": [
+      "Hydrogen fuel",
+      "Life cycle assessment (LCA)",
+      "Sustainable transportation"
+    ],
+    "abstract": "",
+    "firstpage": "100180",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/5/29",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100180.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Sustainable Transportation"
+    ],
+    "bibtex": "@article{Liu2025, \r\nauthor = {Fangjie Liu and Muhammad Shafique and Xiaowei Luo},\r\ntitle = {Next leap in the sustainable transport revolution: Identifying gaps and proposing solutions for hydrogen mobility},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Hydrogen fuel, Life cycle assessment (LCA), Sustainable transportation},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100180},\r\ndoi = {10.1016/j.commtr.2025.100180},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100179",
+    "title": "Survey of research on autonomous driving testing with large models",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100179",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Songyan Liu",
+      "Shijie Cong",
+      "Lan Yang"
+    ],
+    "affiliations": [
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Information Engineering,CHINA. Chang'an University, 710064,CHINA. "
+    ],
+    "keywords": [],
+    "abstract": "",
+    "firstpage": "100179",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/4/30",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100179.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Liu2025, \r\nauthor = {Songyan Liu and Shijie Cong and Lan Yang},\r\ntitle = {Survey of research on autonomous driving testing with large models},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100179},\r\ndoi = {10.1016/j.commtr.2025.100179},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100178",
+    "title": "A causality-based explainable AI method for bus delay propagation analysis",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100178",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Qi Zhang",
+      "Zhenliang Ma",
+      "Zhiyong Cui"
+    ],
+    "affiliations": [
+      "School of Transportation and Logistics Engineering,CHINA. Wuhan University of Technology, 430070,CHINA. Department of Civil and Architectural Engineering,SWEDEN. KTH – Royal Institute of Technology,SWEDEN. ",
+      "Department of Civil and Architectural Engineering,SWEDEN. KTH – Royal Institute of Technology,SWEDEN. ",
+      "School of Transportation Science and Engineering,Beijing,CHINA. Beijing University of Aeronautics and Astronautics,Beijing,Beijing,CHINA. "
+    ],
+    "keywords": [
+      "Bus delays",
+      "Causal discovery",
+      "Explainable artificial intelligence (AI)",
+      "Causal contribution",
+      "General transit feed specification (GTFS) data"
+    ],
+    "abstract": "",
+    "firstpage": "100178",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/4/10",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100178.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Public Transit"
+    ],
+    "bibtex": "@article{Zhang2025, \r\nauthor = {Qi Zhang and Zhenliang Ma and Zhiyong Cui},\r\ntitle = {A causality-based explainable AI method for bus delay propagation analysis},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Bus delays, Causal discovery, Explainable artificial intelligence (AI), Causal contribution, General transit feed specification (GTFS) data},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100178},\r\ndoi = {10.1016/j.commtr.2025.100178},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100177",
+    "title": "Urban rail transit resilience under different operation schemes: A percolation-based approach",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100177",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Tianlei Zhu",
+      "Xin Yang",
+      "Yun Wei",
+      "Anthony Chen",
+      "Jianjun Wu"
+    ],
+    "affiliations": [
+      "School of Systems Science,Beijing,CHINA. Beiijing Jiaotong University,Beijing,CHINA. ",
+      "School of Systems Science,Beijing,CHINA. Beiijing Jiaotong University,Beijing,CHINA. ",
+      "Beijing Subway Operation Co., Ltd.,Beijing,CHINA. ",
+      "National Rail Transit Electrification and Automation Engineering Technology Research Center (Hong Kong Branch),Hong Kong,CHINA. Department of Civil and Environmental Engineering,Hong Kong,CHINA. The Hong Kong Polytechnic University Hung Hom,Hong Kong,CHINA. ",
+      "School of Economics and Management,CHINA. Dalian University of Technology, 116024,CHINA. "
+    ],
+    "keywords": [
+      "Urban rail transit (URT)",
+      "Percolation",
+      "Resilience assessment",
+      "Network bottlenecks",
+      "Operation schemes"
+    ],
+    "abstract": "",
+    "firstpage": "100177",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/4/1",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100177.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Public Transit",
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Zhu2025, \r\nauthor = {Tianlei Zhu and Xin Yang and Yun Wei and Anthony Chen and Jianjun Wu},\r\ntitle = {Urban rail transit resilience under different operation schemes: A percolation-based approach},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Urban rail transit (URT), Percolation, Resilience assessment, Network bottlenecks, Operation schemes},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100177},\r\ndoi = {10.1016/j.commtr.2025.100177},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100176",
+    "title": "Counterfactual explanations for deep learning-based traffic forecasting",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100176",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Rushan Wang",
+      "Yanan Xin",
+      "Yatao Zhang",
+      "Fernando Perez-Cruz",
+      "Martin Raubal"
+    ],
+    "affiliations": [
+      "Institute of Cartography and Geoinformation,SWITZERLAND. ETH Zurich, 8092,SWITZERLAND. WSL Institute for Snow and Avalanche Research SLF,SWITZERLAND. ",
+      "Institute of Cartography and Geoinformation,SWITZERLAND. ETH Zurich, 8092,SWITZERLAND. Department of Transport and Planning,NETHERLANDS. TU Delft,NETHERLANDS. ",
+      "Institute of Cartography and Geoinformation,SWITZERLAND. ETH Zurich, 8092,SWITZERLAND. ",
+      "Institute for Machine Learning,SWITZERLAND. ETH Zurich, 8092,SWITZERLAND. ",
+      "Institute of Cartography and Geoinformation,SWITZERLAND. ETH Zurich, 8092,SWITZERLAND. "
+    ],
+    "keywords": [
+      "Traffic forecast",
+      "Deep learning",
+      "Counterfactual explanations",
+      "Explainable artificial intelligence"
+    ],
+    "abstract": "",
+    "firstpage": "100176",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/4/9",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100176.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Wang2025, \r\nauthor = {Rushan Wang and Yanan Xin and Yatao Zhang and Fernando Perez-Cruz and Martin Raubal},\r\ntitle = {Counterfactual explanations for deep learning-based traffic forecasting},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Traffic forecast, Deep learning, Counterfactual explanations, Explainable artificial intelligence},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100176},\r\ndoi = {10.1016/j.commtr.2025.100176},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100175",
+    "title": "FedAV: Federated learning for cyberattack vulnerability and resilience of cooperative driving automation",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100175",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Guanyu Lin",
+      "Sean Qian",
+      "Zulqarnain H. Khattak"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,Carnegie Mellon University,",
+      "Department of Civil and Environmental Engineering,Carnegie Mellon University,",
+      "Transportation and Urban Infrastructure Studies,UNITED STATES. Morgan State University,UNITED STATES. "
+    ],
+    "keywords": [
+      "Cybersecurity",
+      "Cyberattack",
+      "Connected automated vehicles",
+      "Anomaly detection",
+      "Federated learning",
+      "Agent",
+      "Vehicle to everything (V2X)",
+      "Vehicle platooning"
+    ],
+    "abstract": "",
+    "firstpage": "100175",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/4/1",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100175.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving",
+      "Connected Vehicles",
+      "Sustainable Transportation"
+    ],
+    "bibtex": "@article{Lin2025, \r\nauthor = {Guanyu Lin and Sean Qian and Zulqarnain H. Khattak},\r\ntitle = {FedAV: Federated learning for cyberattack vulnerability and resilience of cooperative driving automation},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Cybersecurity, Cyberattack, Connected automated vehicles, Anomaly detection, Federated learning, Agent, Vehicle to everything (V2X), Vehicle platooning},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100175},\r\ndoi = {10.1016/j.commtr.2025.100175},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100174",
+    "title": "CASAformer: Congestion-aware sparse attention transformer for traffic speed prediction",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100174",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Yifan Zhang",
+      "Qishen Zhou",
+      "Jianping Wang",
+      "Anastasios Kouvelas",
+      "Michail A. Makridis"
+    ],
+    "affiliations": [
+      "Institute for Transport Planning and Systems,SWITZERLAND. ETH Zurich, 8092,SWITZERLAND. Department of Computer Science,Dongguan,Guangdong,CHINA. City University of Hong Kong (Dongguan),Dongguan,Guangdong,CHINA. ",
+      "Institute of Intelligent Transportation Systems,CHINA. College of Civil Engineering and Architecture,CHINA. Zhejiang University, 310058,CHINA. Institute for Transport Planning and Systems,SWITZERLAND. ETH Zurich, 8092,SWITZERLAND. ",
+      "Department of Computer Science,CHINA. City University of Hong Kong, 999077,CHINA. ",
+      "Institute for Transport Planning and Systems,SWITZERLAND. ETH Zurich, 8092,SWITZERLAND. ",
+      "Institute for Transport Planning and Systems,SWITZERLAND. ETH Zurich, 8092,SWITZERLAND. "
+    ],
+    "keywords": [
+      "Traffic prediction",
+      "Traffic state estimation",
+      "Traffic congestion",
+      "Deep learning",
+      "Transformer"
+    ],
+    "abstract": "",
+    "firstpage": "100174",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/4/10",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100174.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Traffic Flow"
+    ],
+    "bibtex": "@article{Zhang2025, \r\nauthor = {Yifan Zhang and Qishen Zhou and Jianping Wang and Anastasios Kouvelas and Michail A. Makridis},\r\ntitle = {CASAformer: Congestion-aware sparse attention transformer for traffic speed prediction},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Traffic prediction, Traffic state estimation, Traffic congestion, Deep learning, Transformer},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100174},\r\ndoi = {10.1016/j.commtr.2025.100174},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100173",
+    "title": "DFUN-KDF: Efficient and robust decentralized federated framework for UAV networks via knowledge distillation and filtering",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100173",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Wenyuan Yang",
+      "Yuhang Liu",
+      "Xinlin Leng",
+      "Hanlin Gu",
+      "Gege Jiang",
+      "Xiaochuan Yu",
+      "Xiaochun Cao"
+    ],
+    "affiliations": [
+      "School of Cyber Science and Technology,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. Key Laboratory of Cyberspace Security, Ministry of Education,CHINA. ",
+      "School of Information and Software Engineering,CHINA. University of Electronic Science and Technology of China, 610054,CHINA. School of Cyber Science and Technology,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "School of Cyber Science and Technology,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "School of Mathematics,CHINA. The Hong Kong University of Science and Technology,CHINA. ",
+      "School of Intelligent Systems Engineering,CHINA. Sun Yat-sen University, 510275,CHINA. ",
+      "School of Information Technology,Guangxi,CHINA.  Guangxi Police College,Nanning,Guangxi,CHINA. ",
+      "School of Cyber Science and Technology,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. "
+    ],
+    "keywords": [
+      "Decentralized federated learning (FL)",
+      "Unmanned aerial vehicles (UAVs)",
+      "Aggregation mechanism",
+      "Knowledge distillation"
+    ],
+    "abstract": "",
+    "firstpage": "100173",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/11",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100173.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving",
+      "Public Transit"
+    ],
+    "bibtex": "@article{Yang2025, \r\nauthor = {Wenyuan Yang and Yuhang Liu and Xinlin Leng and Hanlin Gu and Gege Jiang and Xiaochuan Yu and Xiaochun Cao},\r\ntitle = {DFUN-KDF: Efficient and robust decentralized federated framework for UAV networks via knowledge distillation and filtering},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Decentralized federated learning (FL), Unmanned aerial vehicles (UAVs), Aggregation mechanism, Knowledge distillation},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100173},\r\ndoi = {10.1016/j.commtr.2025.100173},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100171",
+    "title": "Sustainable operational strategies for mixed fleets: Integrating autonomous and human-driven taxis with heterogeneous energy types",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100171",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Qinru Hu",
+      "Beinuo Yang",
+      "Keyang Zhang",
+      "Jose Escribano Macias",
+      "Xiqun (Michael) Chen",
+      "Yanfeng Ouyang",
+      "Simon Hu"
+    ],
+    "affiliations": [
+      "Institute of Intelligent Transportation Systems,CHINA. College of Civil Engineering and Architecture,CHINA. Zhejiang University, 310058,CHINA. ZJU–UIUC Institute,CHINA. Zhejiang University, 310058,CHINA. ",
+      "ZJU–UIUC Institute,CHINA. Zhejiang University, 310058,CHINA. ",
+      "Department of Civil and Environmental Engineering,UNITED KINGDOM. Imperial College London, SW7 2AZ,UNITED KINGDOM. ",
+      "Department of Civil and Environmental Engineering,UNITED KINGDOM. Imperial College London, SW7 2AZ,UNITED KINGDOM. ",
+      "Institute of Intelligent Transportation Systems,CHINA. College of Civil Engineering and Architecture,CHINA. Zhejiang University, 310058,CHINA. Zhejiang Provincial Engineering Research Center for Intelligent Transportation,Hangzhou,Zhejiang,CHINA. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Illinois Urbana-Champaign,UNITED STATES. ",
+      "Institute of Intelligent Transportation Systems,CHINA. College of Civil Engineering and Architecture,CHINA. Zhejiang University, 310058,CHINA. Zhejiang Provincial Engineering Research Center for Intelligent Transportation,Hangzhou,Zhejiang,CHINA. ZJU–UIUC Institute,CHINA. Zhejiang University, 310058,CHINA. "
+    ],
+    "keywords": [
+      "Autonomous electric taxis",
+      "Agent-based simulation",
+      "Mixed vehicle fleets",
+      "Charging scheduling",
+      "Sustainability"
+    ],
+    "abstract": "",
+    "firstpage": "100171",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/4/1",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100171.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Sustainable Transportation"
+    ],
+    "bibtex": "@article{Hu2025, \r\nauthor = {Qinru Hu and Beinuo Yang and Keyang Zhang and Jose Escribano Macias and Xiqun (Michael) Chen and Yanfeng Ouyang and Simon Hu},\r\ntitle = {Sustainable operational strategies for mixed fleets: Integrating autonomous and human-driven taxis with heterogeneous energy types},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Autonomous electric taxis, Agent-based simulation, Mixed vehicle fleets, Charging scheduling, Sustainability},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100171},\r\ndoi = {10.1016/j.commtr.2025.100171},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100170",
+    "title": "LC-LLM: Explainable lane-change intention and trajectory predictions with Large Language Models",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100170",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Mingxing Peng",
+      "Xusen Guo",
+      "Xianda Chen",
+      "Kehua Chen",
+      "Meixin Zhu",
+      "Long Chen",
+      "Fei-Yue Wang"
+    ],
+    "affiliations": [
+      "Intelligent Transportation Thrust,Guangdong,CHINA. System Hub,Guangdong,CHINA. The Hong Kong University of Science and Technology (Guangzhou),Guangzhou,Guangdong,CHINA. ",
+      "Intelligent Transportation Thrust,Guangdong,CHINA. System Hub,Guangdong,CHINA. The Hong Kong University of Science and Technology (Guangzhou),Guangzhou,Guangdong,CHINA. ",
+      "Intelligent Transportation Thrust,Guangdong,CHINA. System Hub,Guangdong,CHINA. The Hong Kong University of Science and Technology (Guangzhou),Guangzhou,Guangdong,CHINA. ",
+      "Division of Emerging Interdisciplinary Areas,Academy of Interdisciplinary Studies,Hong Kong University of Science and Technology (HKUST),",
+      "Guangdong Provincial Key Lab of Integrated Communication, Snt and Computation for Ubiquitous Internet of Things,Guangzhou,Guangdong,CHINA. ",
+      "The State Key Laboratory for Management and Control of Complex Systems,CHINA. Institute of Automation,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "The State Key Laboratory for Management and Control of Complex Systems,CHINA. Institute of Automation,CHINA. Chinese Academy of Sciences, 100101,CHINA. "
+    ],
+    "keywords": [
+      "Lane change (LC)",
+      "Large language models (LLMs)",
+      "Intention prediction",
+      "Trajectory prediction",
+      "Fine-tuning",
+      "Interpretability",
+      "Autonomous driving"
+    ],
+    "abstract": "",
+    "firstpage": "100170",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/4/1",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100170.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Peng2025, \r\nauthor = {Mingxing Peng and Xusen Guo and Xianda Chen and Kehua Chen and Meixin Zhu and Long Chen and Fei-Yue Wang},\r\ntitle = {LC-LLM: Explainable lane-change intention and trajectory predictions with Large Language Models},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Lane change (LC), Large language models (LLMs), Intention prediction, Trajectory prediction, Fine-tuning, Interpretability, Autonomous driving},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100170},\r\ndoi = {10.1016/j.commtr.2025.100170},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100166",
+    "title": "Physical enhanced residual learning (PERL) framework for vehicle trajectory prediction",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100166",
+    "volume": "5",
+    "issue": "2",
+    "authors": [
+      "Keke Long",
+      "Zihao Sheng",
+      "Haotian Shi",
+      "Xiaopeng Li",
+      "Sikai Chen",
+      "Soyoung Ahn"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin at Madison,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin at Madison,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin at Madison,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin at Madison,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin at Madison,UNITED STATES. ",
+      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin at Madison,UNITED STATES. "
+    ],
+    "keywords": [
+      "Trajectory prediction",
+      "Residual",
+      "Car-following model",
+      "Neural network"
+    ],
+    "abstract": "",
+    "firstpage": "100166",
+    "lastpage": "",
+    "publication_date": "2025/6/1",
+    "online_date": "2025/4/14",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100166.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Long2025, \r\nauthor = {Keke Long and Zihao Sheng and Haotian Shi and Xiaopeng Li and Sikai Chen and Soyoung Ahn},\r\ntitle = {Physical enhanced residual learning (PERL) framework for vehicle trajectory prediction},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {2},\r\nkeywords = {Trajectory prediction, Residual, Car-following model, Neural network},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100166},\r\ndoi = {10.1016/j.commtr.2025.100166},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100172",
+    "title": "Modular AI agents for transportation surveys and interviews: Advancing engagement, transparency, and cost efficiency",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100172",
+    "volume": "5",
+    "issue": "1",
+    "authors": [
+      "Jiangbo Yu",
+      "Jinhua Zhao",
+      "Luis Miranda-Moreno",
+      "Matthew Korp"
+    ],
+    "affiliations": [
+      "Department of Civil Engineering,CANADA. McGill University, H3A 0E9,CANADA. ",
+      "Department of Urban Studies and Planning,Massachusetts Institute of Technology, 02139,",
+      "Department of Civil Engineering,CANADA. McGill University, H3A 0E9,CANADA. ",
+      "Department of Mechanical Engineering,CANADA. McGill University, H3A 0E9,CANADA. "
+    ],
+    "keywords": [
+      "Travel survey",
+      "Preference elicitation",
+      "Large language model",
+      "Natural language processing",
+      "Human-computer interaction",
+      "Artificial intelligence (AI)",
+      "Public consultation"
+    ],
+    "abstract": "",
+    "firstpage": "100172",
+    "lastpage": "",
+    "publication_date": "2025/3/1",
+    "online_date": "2025/3/24",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100172.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Yu2025, \r\nauthor = {Jiangbo Yu and Jinhua Zhao and Luis Miranda-Moreno and Matthew Korp},\r\ntitle = {Modular AI agents for transportation surveys and interviews: Advancing engagement, transparency, and cost efficiency},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {1},\r\nkeywords = {Travel survey, Preference elicitation, Large language model, Natural language processing, Human-computer interaction, Artificial intelligence (AI), Public consultation},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100172},\r\ndoi = {10.1016/j.commtr.2025.100172},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100169",
+    "title": "Reassessing desired time headway as a measure of car-following capability: Definition, quantification, and associated factors",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100169",
+    "volume": "5",
+    "issue": "1",
+    "authors": [
+      "Shubham Parashar",
+      "Zuduo Zheng",
+      "Andry Rakotonirainy",
+      "Md Mazharul Haque"
+    ],
+    "affiliations": [
+      "School of Civil & Environment Engineering,AUSTRALIA. Queensland University of Technology (QUT),AUSTRALIA. ",
+      "School of Civil Engineering,AUSTRALIA. The University of Queensland, 4072,AUSTRALIA. ",
+      "Centre for Accident Research and Road Safety - Queensland,AUSTRALIA. Queensland University of Technology (QUT),AUSTRALIA. ",
+      "School of Civil & Environment Engineering,AUSTRALIA. Queensland University of Technology (QUT),AUSTRALIA. "
+    ],
+    "keywords": [
+      "Driver capability",
+      "Steady-state car-following",
+      "Desired time headway",
+      "Connected environment (CE)",
+      "Generalized linear mixed model"
+    ],
+    "abstract": "",
+    "firstpage": "100169",
+    "lastpage": "",
+    "publication_date": "2025/3/1",
+    "online_date": "2025/3/12",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100169.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [],
+    "bibtex": "@article{Parashar2025, \r\nauthor = {Shubham Parashar and Zuduo Zheng and Andry Rakotonirainy and Md Mazharul Haque},\r\ntitle = {Reassessing desired time headway as a measure of car-following capability: Definition, quantification, and associated factors},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {1},\r\nkeywords = {Driver capability, Steady-state car-following, Desired time headway, Connected environment (CE), Generalized linear mixed model},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100169},\r\ndoi = {10.1016/j.commtr.2025.100169},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100168",
+    "title": "Driving under the sun: Future of solar buses in Hong Kong, China",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100168",
+    "volume": "5",
+    "issue": "1",
+    "authors": [
+      "Zhuowei Wang",
+      "Yiyang Peng",
+      "Hongxing Yang",
+      "Anthony Chen"
+    ],
+    "affiliations": [
+      "Department of Civil and Environmental Engineering,Hong Kong,CHINA. The Hong Kong Polytechnic University Hung Hom,Hong Kong,CHINA. ",
+      "Department of Civil and Environmental Engineering,Hong Kong,CHINA. The Hong Kong Polytechnic University Hung Hom,Hong Kong,CHINA. ",
+      "Department of Building Environment, and Energy Engineering,Hong Kong,CHINA. The Hong Kong Polytechnic University Hung Hom,Hong Kong,CHINA. ",
+      "Department of Civil and Environmental Engineering,Hong Kong,CHINA. The Hong Kong Polytechnic University Hung Hom,Hong Kong,CHINA. "
+    ],
+    "keywords": [],
+    "abstract": "",
+    "firstpage": "100168",
+    "lastpage": "",
+    "publication_date": "2025/3/1",
+    "online_date": "2025/3/12",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100168.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Public Transit"
+    ],
+    "bibtex": "@article{Wang2025, \r\nauthor = {Zhuowei Wang and Yiyang Peng and Hongxing Yang and Anthony Chen},\r\ntitle = {Driving under the sun: Future of solar buses in Hong Kong, China},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {1},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100168},\r\ndoi = {10.1016/j.commtr.2025.100168},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100167",
+    "title": "Public acceptance of driverless buses: An extended UTAUT2 model with anthropomorphic perception and empathy",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100167",
+    "volume": "5",
+    "issue": "1",
+    "authors": [
+      "Zijing He",
+      "Ying Yang",
+      "Yan Mu",
+      "Xiaobo Qu"
+    ],
+    "affiliations": [
+      "Department of Psychology,CHINA. Sun Yat-sen University, 510275,CHINA. ",
+      "School of Management,CHINA. Shanghai University, 200444,CHINA. ",
+      "Department of Psychology,CHINA. Sun Yat-sen University, 510275,CHINA. ",
+      "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA. "
+    ],
+    "keywords": [
+      "Driverless bus",
+      "Public acceptance",
+      "Unified theory of acceptance and use of technology (UTAUT2)",
+      "Anthropomorphic perception",
+      "Empathy",
+      "Structural equation modeling"
+    ],
+    "abstract": "",
+    "firstpage": "100167",
+    "lastpage": "",
+    "publication_date": "2025/3/1",
+    "online_date": "2025/3/11",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100167.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving",
+      "Public Transit"
+    ],
+    "bibtex": "@article{He2025, \r\nauthor = {Zijing He and Ying Yang and Yan Mu and Xiaobo Qu},\r\ntitle = {Public acceptance of driverless buses: An extended UTAUT2 model with anthropomorphic perception and empathy},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {1},\r\nkeywords = {Driverless bus, Public acceptance, Unified theory of acceptance and use of technology (UTAUT2), Anthropomorphic perception, Empathy, Structural equation modeling},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100167},\r\ndoi = {10.1016/j.commtr.2025.100167},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100165",
+    "title": "Fuel- and noise-minimal departure trajectory using deep reinforcement learning with aircraft dynamics and topography constraints",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100165",
+    "volume": "5",
+    "issue": "1",
+    "authors": [
+      "Chris HC. Nguyen",
+      "James M. Shihua",
+      "Rhea P. Liem"
+    ],
+    "affiliations": [
+      "Department of Mechanical and Aerospace Engineering,CHINA. The Hong Kong University of Science and Technology, Clear Water Bay,CHINA. ",
+      "Department of Mechanical and Aerospace Engineering,CHINA. The Hong Kong University of Science and Technology, Clear Water Bay,CHINA. ",
+      "Department of Mechanical and Aerospace Engineering,CHINA. The Hong Kong University of Science and Technology, Clear Water Bay,CHINA. Department of Aeronautics,UNITED KINGDOM. Imperial College London, SW7 2AZ,UNITED KINGDOM. "
+    ],
+    "keywords": [
+      "Standard instrument departure route design",
+      "Sustainable aviation",
+      "Noise mitigation",
+      "Reinforcement learning (RL)"
+    ],
+    "abstract": "",
+    "firstpage": "100165",
+    "lastpage": "",
+    "publication_date": "2025/3/1",
+    "online_date": "2025/3/12",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100165.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Data-driven and Machine Learning",
+      "Autonomous Driving"
+    ],
+    "bibtex": "@article{Nguyen2025, \r\nauthor = {Chris HC. Nguyen and James M. Shihua and Rhea P. Liem},\r\ntitle = {Fuel- and noise-minimal departure trajectory using deep reinforcement learning with aircraft dynamics and topography constraints},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {1},\r\nkeywords = {Standard instrument departure route design, Sustainable aviation, Noise mitigation, Reinforcement learning (RL)},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100165},\r\ndoi = {10.1016/j.commtr.2025.100165},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100164",
+    "title": "A systematic review of machine learning-based microscopic traffic flow models and simulations",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100164",
+    "volume": "5",
+    "issue": "1",
+    "authors": [
+      "Davies Rowan",
+      "Haitao He",
+      "Fang Hui",
+      "Ali Yasir",
+      "Quddus Mohammed"
+    ],
+    "affiliations": [
+      "Department of Architecture, Building and Civil Engineering,UNITED KINGDOM. Loughborough University, LE11 3TU,UNITED KINGDOM. ",
+      "Department of Architecture, Building and Civil Engineering,UNITED KINGDOM. Loughborough University, LE11 3TU,UNITED KINGDOM. ",
+      "Department of Computer Science,UNITED KINGDOM. Loughborough University, LE11 3TU,UNITED KINGDOM. ",
+      "Department of Architecture, Building and Civil Engineering,UNITED KINGDOM. Loughborough University, LE11 3TU,UNITED KINGDOM. ",
+      "Centre for Transport Engineering and Modeling,UNITED KINGDOM. Department of Civil and Environmental Engineering,UNITED KINGDOM. Imperial College London, SW7 2AZ,UNITED KINGDOM. "
+    ],
+    "keywords": [
+      "Car-following (CF)",
+      "Lane-changing (LC)",
+      "Machine learning (ML)",
+      "Traffic simulation",
+      "Microscopic traffic flow model",
+      "Traffic flow theory"
+    ],
+    "abstract": "",
+    "firstpage": "100164",
+    "lastpage": "",
+    "publication_date": "2025/3/1",
+    "online_date": "2025/2/27",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100164.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Traffic Flow",
+      "Data-driven and Machine Learning",
+      "Sustainable Transportation"
+    ],
+    "bibtex": "@article{Rowan2025, \r\nauthor = {Davies Rowan and Haitao He and Fang Hui and Ali Yasir and Quddus Mohammed},\r\ntitle = {A systematic review of machine learning-based microscopic traffic flow models and simulations},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {1},\r\nkeywords = {Car-following (CF), Lane-changing (LC), Machine learning (ML), Traffic simulation, Microscopic traffic flow model, Traffic flow theory},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100164},\r\ndoi = {10.1016/j.commtr.2025.100164},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100163",
+    "title": "On the stochastic fundamental diagram: A general micro-macroscopic traffic flow modeling framework",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100163",
+    "volume": "5",
+    "issue": "1",
+    "authors": [
+      "Xiaohui Zhang",
+      "Jie Sun",
+      "Jian Sun"
+    ],
+    "affiliations": [
+      "Key Laboratory of Road and Traffic Engineering, Ministry of Education,CHINA. Department of Traffic Engineering,CHINA. Tongji University, 201804,CHINA. ",
+      "Key Laboratory of Road and Traffic Engineering, Ministry of Education,CHINA. Department of Traffic Engineering,CHINA. Tongji University, 201804,CHINA. ",
+      "Key Laboratory of Road and Traffic Engineering, Ministry of Education,CHINA. Department of Traffic Engineering,CHINA. Tongji University, 201804,CHINA. "
+    ],
+    "keywords": [
+      "Stochastic fundamental diagram",
+      "Brownian dynamic",
+      "Markov chain",
+      "Maximum entropy"
+    ],
+    "abstract": "",
+    "firstpage": "100163",
+    "lastpage": "",
+    "publication_date": "2025/3/1",
+    "online_date": "2025/2/13",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100163.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Traffic Flow",
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Zhang2025, \r\nauthor = {Xiaohui Zhang and Jie Sun and Jian Sun},\r\ntitle = {On the stochastic fundamental diagram: A general micro-macroscopic traffic flow modeling framework},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {1},\r\nkeywords = {Stochastic fundamental diagram, Brownian dynamic, Markov chain, Maximum entropy},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100163},\r\ndoi = {10.1016/j.commtr.2025.100163},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100162",
+    "title": "Drone to recharge electric vehicles: Operations, benefits, and challenges",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100162",
+    "volume": "5",
+    "issue": "1",
+    "authors": [
+      "Dongdong He",
+      "Ying Yang",
+      "Andrea Morichetta",
+      "Jianjun Wu"
+    ],
+    "affiliations": [
+      "School of Economics and Management,CHINA. Dalian University of Technology, 116024,CHINA. ",
+      "School of Management,CHINA. Shanghai University, 200444,CHINA. ",
+      "Distributed Systems Group,AUSTRIA. TU Wien,AUSTRIA. ",
+      "School of Economics and Management,CHINA. Dalian University of Technology, 116024,CHINA. "
+    ],
+    "keywords": [
+      "Drone-to-vehicle",
+      "Range anxiety",
+      "Platform design",
+      "Meetup location"
+    ],
+    "abstract": "",
+    "firstpage": "100162",
+    "lastpage": "",
+    "publication_date": "2025/3/1",
+    "online_date": "2025/2/13",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100162.pdf",
+    "type": "Review",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Intelligent Transportation Systems",
+      "Sustainable Transportation"
+    ],
+    "bibtex": "@article{He2025, \r\nauthor = {Dongdong He and Ying Yang and Andrea Morichetta and Jianjun Wu},\r\ntitle = {Drone to recharge electric vehicles: Operations, benefits, and challenges},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {1},\r\nkeywords = {Drone-to-vehicle, Range anxiety, Platform design, Meetup location},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100162},\r\ndoi = {10.1016/j.commtr.2025.100162},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2025.100161",
+    "title": "Integrating spatial-temporal risk maps with candidate trajectory trees for explainable autonomous driving planning",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100161",
+    "volume": "5",
+    "issue": "1",
+    "authors": [
+      "Qiyuan Liu",
+      "Jiawei Zhang",
+      "Jingwei Ge",
+      "Cheng Chang",
+      "Zhiheng Li",
+      "Shen Li",
+      "Li Li"
+    ],
+    "affiliations": [
+      "Tsinghua Shenzhen International Graduate School,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Automation,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Automation,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Automation,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Automation,CHINA. Tsinghua University, 100084,CHINA. Tsinghua Shenzhen International Graduate School,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Civil Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "Department of Automation,CHINA. Tsinghua University, 100084,CHINA. "
+    ],
+    "keywords": [
+      "Risk map",
+      "Trajectory planning",
+      "Explainable autonomous driving"
+    ],
+    "abstract": "",
+    "firstpage": "100161",
+    "lastpage": "",
+    "publication_date": "2025/3/1",
+    "online_date": "2025/1/28",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100161.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Autonomous Driving",
+      "Data-driven and Machine Learning"
+    ],
+    "bibtex": "@article{Liu2025, \r\nauthor = {Qiyuan Liu and Jiawei Zhang and Jingwei Ge and Cheng Chang and Zhiheng Li and Shen Li and Li Li},\r\ntitle = {Integrating spatial-temporal risk maps with candidate trajectory trees for explainable autonomous driving planning},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {1},\r\nkeywords = {Risk map, Trajectory planning, Explainable autonomous driving},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2025.100161},\r\ndoi = {10.1016/j.commtr.2025.100161},\r\n}"
+  },
+  {
+    "doi": "10.1016/j.commtr.2024.100160",
+    "title": "Evaluation of accessibility disparities in urban areas during disruptive events based on transit real data",
+    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2024.100160",
+    "volume": "5",
+    "issue": "1",
+    "authors": [
+      "Alessandro Nalin",
+      "Nir Fulman",
+      "Emily Charlotte Wilke",
+      "Christina Ludwig",
+      "Alexander Zipf",
+      "Claudio Lantieri",
+      "Valeria Vignali",
+      "Andrea Simone"
+    ],
+    "affiliations": [
+      "DICAM Department,ITALY. School of Engineering,ITALY. University of Bologna,ITALY. ",
+      "GIScience Chair,巴登-符腾堡州,GERMANY. Institute of Geography,巴登-符腾堡州,GERMANY. Heidelberg University,海德堡,巴登-符腾堡州,GERMANY. Heidelberg Institute for Geoinformation Technology gGmbH,GERMANY. ",
+      "GIScience Chair,巴登-符腾堡州,GERMANY. Institute of Geography,巴登-符腾堡州,GERMANY. Heidelberg University,海德堡,巴登-符腾堡州,GERMANY. Heidelberg Institute for Geoinformation Technology gGmbH,GERMANY. ",
+      "GIScience Chair,巴登-符腾堡州,GERMANY. Institute of Geography,巴登-符腾堡州,GERMANY. Heidelberg University,海德堡,巴登-符腾堡州,GERMANY. Heidelberg Institute for Geoinformation Technology gGmbH,GERMANY. ",
+      "GIScience Chair,巴登-符腾堡州,GERMANY. Institute of Geography,巴登-符腾堡州,GERMANY. Heidelberg University,海德堡,巴登-符腾堡州,GERMANY. Heidelberg Institute for Geoinformation Technology gGmbH,GERMANY. ",
+      "DICAM Department,ITALY. School of Engineering,ITALY. University of Bologna,ITALY. ",
+      "DICAM Department,ITALY. School of Engineering,ITALY. University of Bologna,ITALY. ",
+      "DICAM Department,ITALY. School of Engineering,ITALY. University of Bologna,ITALY. "
+    ],
+    "keywords": [
+      "Accessibility",
+      "Big data",
+      "Geographic Information System (GIS)",
+      "General Transit Feed Specification (GTFS)",
+      "Public transport",
+      "Rapid Realistic Routing with R5 in R (R5R)"
+    ],
+    "abstract": "",
+    "firstpage": "100160",
+    "lastpage": "",
+    "publication_date": "2025/3/1",
+    "online_date": "2025/1/15",
+    "publisher": "清华大学出版社",
+    "issn": "2097-5023",
+    "language": "en",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2024.100160.pdf",
+    "type": "Research Article",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "year": 2025,
+    "research_area": [
+      "Sustainable Transportation",
+      "Network Design"
+    ],
+    "bibtex": "@article{Nalin2025, \r\nauthor = {Alessandro Nalin and Nir Fulman and Emily Charlotte Wilke and Christina Ludwig and Alexander Zipf and Claudio Lantieri and Valeria Vignali and Andrea Simone},\r\ntitle = {Evaluation of accessibility disparities in urban areas during disruptive events based on transit real data},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {1},\r\nkeywords = {Accessibility, Big data, Geographic Information System (GIS), General Transit Feed Specification (GTFS), Public transport, Rapid Realistic Routing with R5 in R (R5R)},\r\nurl = {https://www.sciopen.com/article/10.1016/j.commtr.2024.100160},\r\ndoi = {10.1016/j.commtr.2024.100160},\r\n}"
+  }
+]
