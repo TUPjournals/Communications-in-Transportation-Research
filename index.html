@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Communications in Transportation Research 2025</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --card: #ffffff;
+  --primary: #1565c0;
+  --primary-dark: #0d47a1;
+  --accent: #42a5f5;
+  --accent-light: #e3f2fd;
+  --accent-bg: #e8f4fd;
+  --text: #1a1a1a;
+  --text-muted: #5a5a5a;
+  --border: #bbdefb;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(21,101,192,0.06), 0 4px 12px rgba(21,101,192,0.04);
+  --shadow-hover: 0 4px 12px rgba(21,101,192,0.1), 0 8px 24px rgba(21,101,192,0.06);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #0d47a1 0%, #1565c0 50%, #42a5f5 100%);
+  color: #fff;
+  padding: 28px 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 20px rgba(21,101,192,0.25);
+}
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 { font-size: 1.5rem; font-weight: 700; }
+.header p { opacity: 0.9; font-size: 0.9rem; margin-top: 4px; }
+.header-links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+.header-links a {
+  color: #fff;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.5);
+  padding: 4px 12px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.header-links a:hover { background: rgba(255,255,255,0.15); }
+
+/* Search */
+.search-section {
+  background: var(--accent-bg);
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+}
+.search-row {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.search-wrap {
+  flex: 1;
+  min-width: 200px;
+  position: relative;
+}
+.search-wrap .icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+}
+.search-wrap input {
+  width: 100%;
+  padding: 10px 14px 10px 40px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+.search-wrap input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.filter-select {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: #fff;
+  cursor: pointer;
+  min-width: 140px;
+}
+.filter-select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+/* Stats */
+.stats-row {
+  max-width: 1200px;
+  margin: 16px auto;
+  padding: 0 24px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.stat-chip {
+  background: var(--accent-bg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.stat-chip .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+
+/* Article list */
+.list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px 40px;
+}
+
+/* Card */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.2s;
+}
+.card:hover { box-shadow: var(--shadow-hover); }
+.card-head {
+  padding: 16px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  flex: 1;
+  line-height: 1.5;
+}
+.badges {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.badge-year, .badge-type {
+  background: var(--accent-bg);
+  color: var(--primary);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.btn-expand {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+.btn-expand:hover { background: var(--accent-bg); border-color: var(--accent); }
+
+.card-authors {
+  padding: 0 20px 8px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.card-keywords {
+  padding: 4px 20px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.kw {
+  background: var(--accent-bg);
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: var(--primary);
+}
+.card-doi {
+  padding: 4px 20px;
+  font-size: 0.8rem;
+}
+.card-doi a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.card-doi a:hover { text-decoration: underline; }
+
+/* Cite row */
+.card-cite {
+  padding: 8px 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card-cite-text {
+  flex: 1;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card-cite-btn {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+.card-cite-btn:hover { background: var(--primary-dark); }
+.card-cite-btn.copied { background: #4caf50; }
+
+/* Detail panel */
+.detail {
+  padding: 0 20px 16px;
+  display: none;
+}
+.card.expanded .detail { display: block; }
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.d-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.d-item label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.d-item span {
+  font-size: 0.85rem;
+  color: var(--text);
+}
+.d-abstract {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-top: 8px;
+}
+.d-abstract strong { color: var(--text); margin-right: 4px; }
+.d-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.d-links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.d-links a:hover { text-decoration: underline; }
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+/* Message */
+.center-msg {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-muted);
+}
+.spinner {
+  width: 30px;
+  height: 30px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 12px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Search highlight */
+mark {
+  background: #fde047;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  .search-row { flex-direction: column; }
+  .search-wrap { width: 100%; }
+  .filter-select { width: 100%; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div>
+      <h1>Communications in Transportation Research</h1>
+      <p>Volume 5 (2025) — Article Index & Search</p>
+      <div class="header-links">
+        <a href="https://www.sciopen.com/journal/2097-5023" target="_blank">Home page</a>
+        <a href="https://mc03.manuscriptcentral.com/commtr" target="_blank">Submission link</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="search-section">
+  <div class="search-row">
+    <div class="search-wrap">
+      <span class="icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search by title, author, keyword...">
+    </div>
+    <select class="filter-select" id="yearFilter"><option value="">All Years</option></select>
+    <select class="filter-select" id="typeFilter"><option value="">All Types</option></select>
+    <select class="filter-select" id="areaFilter"><option value="">All Research Areas</option></select>
+  </div>
+</section>
+
+<div class="stats-row" id="statsRow"></div>
+
+<div class="list" id="articleList">
+  <div class="center-msg"><div class="spinner"></div><div>Loading articles...</div></div>
+</div>
+
+<div class="footer">
+  Communications in Transportation Research &copy; 2025 — Data from <a href="https://www.sciopen.com" target="_blank">SciOpen</a>
+</div>
+
+<script>
+const DATA_URL = 'ctr_articles.json';
+let allArticles = [];
+let filteredArticles = [];
+
+const $search = document.getElementById('searchInput');
+const $year = document.getElementById('yearFilter');
+const $type = document.getElementById('typeFilter');
+const $area = document.getElementById('areaFilter');
+const $list = document.getElementById('articleList');
+const $stats = document.getElementById('statsRow');
+
+/* ── Load ── */
+async function loadData() {
+  try {
+    const r = await fetch(DATA_URL);
+    allArticles = await r.json();
+    // Sort by volume desc, issue desc, firstpage desc
+    allArticles.sort((a, b) => {
+      const vol = (b.volume || 0) - (a.volume || 0);
+      if (vol !== 0) return vol;
+      const iss = (b.issue || 0) - (a.issue || 0);
+      if (iss !== 0) return iss;
+      return (b.firstpage || 0) - (a.firstpage || 0);
+    });
+    filteredArticles = allArticles;
+    fillFilters();
+    render();
+  } catch (e) {
+    $list.innerHTML = `<div class="center-msg">⚠️ Failed to load: ${e.message}</div>`;
+  }
+}
+
+/* ── Filters ── */
+function fillFilters() {
+  const years = new Set(), types = new Set(), areas = new Set();
+  allArticles.forEach(a => { 
+    if (a.year) years.add(a.year); 
+    if (a.type) types.add(a.type);
+    (a.research_area||[]).forEach(ar => areas.add(ar));
+  });
+  [...years].sort((a,b)=>b-a).forEach(y => {
+    const o = document.createElement('option'); o.value = y; o.textContent = y; $year.appendChild(o);
+  });
+  [...areas].sort((a,b)=>a.localeCompare(b)).forEach(ar => {
+    const o = document.createElement('option'); o.value = ar; o.textContent = ar; $area.appendChild(o);
+  });
+  [...types].sort().forEach(t => {
+    const o = document.createElement('option'); o.value = t; o.textContent = t; $type.appendChild(o);
+  });
+}
+
+let currentQuery = '';
+
+function applyFilters() {
+  const q = $search.value.trim();
+  currentQuery = q;
+  const yv = $year.value, tv = $type.value, av = $area.value;
+  filteredArticles = allArticles
+    .map(a => {
+      if (yv && a.year != yv) return null;
+      if (tv && a.type !== tv) return null;
+      if (av && !(a.research_area||[]).includes(av)) return null;
+      const score = searchScore(a, q);
+      if (q && score === 0) return null;
+      return { ...a, _score: score, _q: q };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b._score - a._score);
+  render();
+}
+
+/* ── Highlight ── */
+function highlight(text, query) {
+  if (!query || !text) return esc(text || '');
+  const tokens = query.trim().split(/\s+/).filter(Boolean);
+  let result = esc(text);
+  for (const tok of tokens) {
+    const re = new RegExp('(' + tok.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    result = result.replace(re, '<mark style="background:#fde047;padding:0 2px;border-radius:2px">$1</mark>');
+  }
+  return result;
+}
+
+/* ── Fuzzy Search ── */
+function fuzzyMatch(text, query) {
+  if (!query) return { match: true, score: 0 };
+  const t = (text || '').toLowerCase();
+  const q = query.toLowerCase().trim();
+  if (!q) return { match: true, score: 0 };
+  if (t.includes(q)) return { match: true, score: 10 };
+  const tokens = q.split(/\s+/);
+  let allMatch = true;
+  for (const tok of tokens) {
+    if (!t.includes(tok)) { allMatch = false; break; }
+  }
+  if (allMatch) return { match: true, score: 5 };
+  let qi = 0;
+  for (let i = 0; i < t.length && qi < q.length; i++) {
+    if (t[i] === q[qi]) qi++;
+  }
+  if (qi === q.length) return { match: true, score: 2 };
+  return { match: false, score: 0 };
+}
+
+function searchScore(a, q) {
+  if (!q) return 1;
+  const tokens = q.toLowerCase().trim().split(/\s+/);
+  let total = 0;
+  for (const tok of tokens) {
+    const fields = [
+      { v: a.title || '', w: 10 },
+      { v: (a.authors||[]).map(x=>x.name).join(' ') || '', w: 5 },
+      { v: (a.keywords||[]).join(' ') || '', w: 4 },
+      { v: (a.research_area||[]).join(' ') || '', w: 3 },
+      { v: a.abstract || '', w: 1 },
+    ];
+    let best = 0;
+    for (const f of fields) {
+      const m = fuzzyMatch(f.v, tok);
+      if (m.match) best = Math.max(best, m.score * f.w);
+    }
+    total += best;
+  }
+  return total;
+}
+
+/* ── Render ── */
+function render() {
+  if (!filteredArticles.length) {
+    $list.innerHTML = `<div class="center-msg"><div style="font-size:2.5rem;margin-bottom:8px">🔍</div><div>No articles found</div></div>`;
+    return;
+  }
+  
+  $stats.innerHTML = `
+    <div class="stat-chip"><span class="dot"></span><strong>${filteredArticles.length}</strong> articles</div>
+    <div class="stat-chip">Sorted by relevance</div>
+  `;
+  
+  $list.innerHTML = filteredArticles.map((a,i) => {
+    const idx = allArticles.indexOf(a);
+    const formattedAuthors = (a.authors||[]).map(au => {
+      const name = (au || '').trim();
+      return `<span style="display:inline-block;white-space:nowrap">${esc(name)}</span>`;
+    }).join(', ');
+    const shortNames = formattedAuthors;
+    const kws = (a.keywords||[]).slice(0,5).map(k => `<span class="kw">${highlight(k.replace(/<[^>]+>/g, ''), currentQuery)}</span>`).join('');
+    const volIssue = (a.volume || a.issue) ? `Vol.${a.volume||'?'} Iss. ${a.issue||'?'}` : '';
+    
+    return `
+    <div class="card" data-idx="${idx}">
+      <div class="card-head" onclick="toggle(this.parentElement)">
+        <div class="card-title">${highlight(a.title.replace(/<[^>]+>/g, ''), currentQuery)}</div>
+        <div class="badges">
+          <span class="badge-year">${a.year || '?'}</span>
+          ${a.type ? `<span class="badge-type">${esc(a.type)}</span>` : ''}
+          ${volIssue ? `<span class="badge-type">${esc(volIssue)}</span>` : ''}
+          <button class="btn-expand" onclick="event.stopPropagation();toggle(this.closest('.card'))">Expand ▾</button>
+        </div>
+      </div>
+      <div class="card-authors">${shortNames}</div>
+      ${kws ? `<div class="card-keywords">${kws}</div>` : ''}
+      ${(a.research_area||[]).length > 0 ? `<div class="card-keywords"><span style="font-size:0.78rem;color:#666;margin-right:4px;font-weight:600">Research area:</span>${a.research_area.map(ar => `<span class="kw" style="background:#fff3e0;color:#e65100;font-weight:600">${esc(ar)}</span>`).join(' ')}</div>` : ''}
+      ${a.doi ? `<div class="card-doi"><a href="https://doi.org/${a.doi}" target="_blank" onclick="event.stopPropagation()">https://doi.org/${esc(a.doi)}</a></div>` : ''}
+      ${a.doi ? `
+      <div class="card-cite" onclick="event.stopPropagation()">
+        <span class="card-cite-text">${getCiteText(a)}</span>
+        <button class="card-cite-btn" onclick="copyCite(${idx})">Copy</button>
+        <button class="card-cite-btn" style="background:#27ae60" onclick="event.stopPropagation();downloadRIS(${idx})">RIS</button>
+        <button class="card-cite-btn" style="background:#9b59b6" onclick="event.stopPropagation();downloadBibTeX(${idx})">BibTeX</button>
+      </div>` : ''}
+      <div class="detail">
+        <div class="detail-grid">
+          ${a.doi ? `<div class="d-item"><label>DOI</label><span>${esc(a.doi)}</span></div>` : ''}
+          ${a.volume ? `<div class="d-item"><label>Volume(Issue)</label><span>${a.volume}(${a.issue})</span></div>` : ''}
+          ${a.firstpage ? `<div class="d-item"><label>Pages</label><span>${a.firstpage}-${a.lastpage}</span></div>` : ''}
+          ${a.publication_date ? `<div class="d-item"><label>Published</label><span>${esc(a.publication_date)}</span></div>` : ''}
+        </div>
+        ${a.abstract ? `<div class="d-abstract"><strong>Abstract:</strong> ${highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery)}</div>` : ''}
+        <div class="d-links">
+          ${a.url ? `<a href="${a.url}" target="_blank" onclick="event.stopPropagation()">View on SciOpen →</a>` : ''}
+          ${a.pdf ? `<a href="${a.pdf}" target="_blank" onclick="event.stopPropagation()">Download PDF →</a>` : ''}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+/* ── Toggle ── */
+function toggle(card) {
+  card.classList.toggle('expanded');
+  const btn = card.querySelector('.btn-expand');
+  if (btn) btn.textContent = card.classList.contains('expanded') ? 'Collapse ▴' : 'Expand ▾';
+}
+
+/* ── Cite text ── */
+function getCiteText(a) {
+  const authors = (a.authors||[]).map(au => {
+    const name = (au || '').trim();
+    const parts = name.split(/\s+/);
+    if (parts.length >= 2) return parts[0] + ' ' + parts[parts.length-1][0] + '.';
+    return name;
+  });
+  if (authors.length > 3) {
+    return authors.slice(0,3).join(', ') + ', et al. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '-' + (a.lastpage||'') + '. https://doi.org/' + (a.doi || '');
+  }
+  return authors.join(', ') + '. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '-' + (a.lastpage||'') + '. https://doi.org/' + (a.doi || '');
+}
+
+function copyCite(idx) {
+  const a = allArticles[idx];
+  if (!a) return;
+  navigator.clipboard.writeText(getCiteText(a));
+  const btn = document.querySelectorAll('.card')[idx]?.querySelector('.card-cite-btn');
+  if (btn) {
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1500);
+  }
+}
+
+/* ── Download RIS ── */
+function downloadRIS(idx) {
+  const a = allArticles[idx];
+  if (!a) return;
+  const ris = [];
+  ris.push('TY  - JOUR');
+  (a.authors||[]).forEach(au => {
+    const name = au || '';
+    const parts = name.trim().split(/\s+/);
+    if (parts.length >= 2) {
+      ris.push('AU  - ' + parts[parts.length-1] + ', ' + parts.slice(0,-1).join(' '));
+    } else {
+      ris.push('AU  - ' + name);
+    }
+  });
+  ris.push('TI  - ' + (a.title || ''));
+  ris.push('PY  - ' + (a.year || ''));
+  ris.push('JO  - Communications in Transportation Research');
+  if (a.volume) ris.push('VL  - ' + a.volume);
+  if (a.issue) ris.push('IS  - ' + a.issue);
+  if (a.firstpage) ris.push('SP  - ' + a.firstpage);
+  if (a.lastpage) ris.push('EP  - ' + a.lastpage);
+  if (a.doi) ris.push('DO  - ' + a.doi);
+  if (a.keywords) ris.push('KW  - ' + a.keywords.join('; '));
+  if (a.abstract) ris.push('AB  - ' + a.abstract);
+  ris.push('UR  - https://doi.org/' + (a.doi || ''));
+  ris.put('ER  - ');
+  
+  const blob = new Blob([ris.join('\r\n') + '\r\n'], { type: 'application/x-research-info-systems;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url; link.download = (a.doi || 'article').replace(/\//g, '_') + '.ris';
+  document.body.appendChild(link); link.click();
+  document.body.removeChild(link); URL.revokeObjectURL(url);
+}
+
+/* ── Download BibTeX ── */
+function downloadBibTeX(idx) {
+  const a = allArticles[idx];
+  if (!a) return;
+  const bibtex = a.bibtex || generateBibTeX(a);
+  const filename = (a.doi || 'article').replace(/\//g, '_') + '.bib';
+  download(bibtex, filename, 'application/x-bibtex;charset=utf-8;');
+}
+
+function generateBibTeX(a) {
+  const first_author = (a.authors?.[0] || 'Unknown').split(/\s+/).pop() || 'Unknown';
+  const year = a.year || '2025';
+  const key = first_author + year;
+  const authors_bib = (a.authors||[]).map(au => au.name).join(' and ');
+  let bib = '@article{' + key + ', \r\n';
+  bib += 'author = {' + authors_bib + '},\r\n';
+  bib += 'title = {' + (a.title || '') + '},\r\n';
+  bib += 'year = {' + year + '},\r\n';
+  bib += 'journal = {Communications in Transportation Research},\r\n';
+  if (a.volume) bib += 'volume = {' + a.volume + '},\r\n';
+  if (a.issue) bib += 'number = {' + a.issue + '},\r\n';
+  if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},\r\n';
+  if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\r\n';
+  if (a.doi) {
+    bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
+    bib += 'doi = {' + a.doi + '},\r\n';
+  }
+  if (a.abstract) bib += 'abstract = {' + a.abstract + '}';
+  bib += '}';
+  return bib;
+}
+
+function download(content, filename, mime) {
+  const blob = new Blob([content], { type: mime });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+}
+
+/* ── Escape ── */
+function esc(s) {
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+/* ── Events ── */
+$search.addEventListener('input', debounce(applyFilters, 300));
+$year.addEventListener('change', applyFilters);
+$type.addEventListener('change', applyFilters);
+$area.addEventListener('change', applyFilters);
+
+function debounce(fn, ms) {
+  let t;
+  return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
+}
+
+/* ── Init ── */
+loadData();
+</script>
+</body>
+</html>
