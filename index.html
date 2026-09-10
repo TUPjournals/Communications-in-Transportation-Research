@@ -610,6 +610,16 @@ function copyCite(idx) {
 function downloadRIS(idx) {
   const a = allArticles[idx];
   if (!a) return;
+  const ris = a.ris || generateRIS(a);
+  const blob = new Blob([ris], { type: 'application/x-research-info-systems;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url; link.download = (a.doi || 'article').replace(/\//g, '_') + '.ris';
+  document.body.appendChild(link); link.click();
+  document.body.removeChild(link); URL.revokeObjectURL(url);
+}
+
+function generateRIS(a) {
   const ris = [];
   ris.push('TY  - JOUR');
   (a.authors||[]).forEach(au => {
@@ -621,25 +631,20 @@ function downloadRIS(idx) {
       ris.push('AU  - ' + name);
     }
   });
-  ris.push('TI  - ' + (a.title || ''));
   ris.push('PY  - ' + (a.year || ''));
+  ris.push('TI  - ' + (a.title || ''));
   ris.push('JO  - Communications in Transportation Research');
+  ris.push('SN  - 2097-5023');
+  if (a.firstpage) ris.push('SP  - ' + a.firstpage);
   if (a.volume) ris.push('VL  - ' + a.volume);
   if (a.issue) ris.push('IS  - ' + a.issue);
-  if (a.firstpage) ris.push('SP  - ' + a.firstpage);
-  if (a.lastpage) ris.push('EP  - ' + a.lastpage);
-  if (a.doi) ris.push('DO  - ' + a.doi);
-  if (a.keywords) ris.push('KW  - ' + a.keywords.join('; '));
   if (a.abstract) ris.push('AB  - ' + a.abstract);
-  ris.push('UR  - https://doi.org/' + (a.doi || ''));
+  if (a.doi) {
+    ris.push('UR  - https://doi.org/' + a.doi);
+    ris.push('DO  - ' + a.doi);
+  }
   ris.push('ER  - ');
-  
-  const blob = new Blob([ris.join('\r\n') + '\r\n'], { type: 'application/x-research-info-systems;charset=utf-8;' });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement('a');
-  link.href = url; link.download = (a.doi || 'article').replace(/\//g, '_') + '.ris';
-  document.body.appendChild(link); link.click();
-  document.body.removeChild(link); URL.revokeObjectURL(url);
+  return ris.join('\r\n') + '\r\n';
 }
 
 /* ── Download BibTeX ── */
