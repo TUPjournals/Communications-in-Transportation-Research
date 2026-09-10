@@ -632,7 +632,7 @@ function downloadRIS(idx) {
   if (a.keywords) ris.push('KW  - ' + a.keywords.join('; '));
   if (a.abstract) ris.push('AB  - ' + a.abstract);
   ris.push('UR  - https://doi.org/' + (a.doi || ''));
-  ris.put('ER  - ');
+  ris.push('ER  - ');
   
   const blob = new Blob([ris.join('\r\n') + '\r\n'], { type: 'application/x-research-info-systems;charset=utf-8;' });
   const url = URL.createObjectURL(blob);
