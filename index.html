@@ -406,7 +406,6 @@ async function loadData() {
   try {
     const r = await fetch(DATA_URL);
     allArticles = await r.json();
-    // Sort by volume desc, issue desc, firstpage desc
     allArticles.sort((a, b) => {
       const vol = (b.volume || 0) - (a.volume || 0);
       if (vol !== 0) return vol;
@@ -418,25 +417,25 @@ async function loadData() {
     fillFilters();
     render();
   } catch (e) {
-    $list.innerHTML = `<div class="center-msg">⚠️ Failed to load: ${e.message}</div>`;
+    $list.innerHTML = '<div class="center-msg">⚠️ Failed to load: ' + e.message + '</div>';
   }
 }
 
 /* ── Filters ── */
 function fillFilters() {
   const years = new Set(), types = new Set(), areas = new Set();
-  allArticles.forEach(a => { 
+  allArticles.forEach(function(a) { 
     if (a.year) years.add(a.year); 
     if (a.type) types.add(a.type);
-    (a.research_area||[]).forEach(ar => areas.add(ar));
+    (a.research_area||[]).forEach(function(ar) { areas.add(ar); });
   });
-  [...years].sort((a,b)=>b-a).forEach(y => {
+  [...years].sort(function(a,b){return b-a;}).forEach(function(y) {
     const o = document.createElement('option'); o.value = y; o.textContent = y; $year.appendChild(o);
   });
-  [...areas].sort((a,b)=>a.localeCompare(b)).forEach(ar => {
+  [...areas].sort(function(a,b){return a.localeCompare(b);}).forEach(function(ar) {
     const o = document.createElement('option'); o.value = ar; o.textContent = ar; $area.appendChild(o);
   });
-  [...types].sort().forEach(t => {
+  [...types].sort().forEach(function(t) {
     const o = document.createElement('option'); o.value = t; o.textContent = t; $type.appendChild(o);
   });
 }
@@ -448,16 +447,16 @@ function applyFilters() {
   currentQuery = q;
   const yv = $year.value, tv = $type.value, av = $area.value;
   filteredArticles = allArticles
-    .map(a => {
+    .map(function(a, idx) {
       if (yv && a.year != yv) return null;
       if (tv && a.type !== tv) return null;
       if (av && !(a.research_area||[]).includes(av)) return null;
       const score = searchScore(a, q);
       if (q && score === 0) return null;
-      return { ...a, _score: score, _q: q, _origIdx: allArticles.indexOf(a) };
+      return Object.assign({}, a, { _score: score, _q: q, _origIdx: idx });
     })
     .filter(Boolean)
-    .sort((a, b) => b._score - a._score);
+    .sort(function(a, b) { return b._score - a._score; });
   render();
 }
 
@@ -466,8 +465,8 @@ function highlight(text, query) {
   if (!query || !text) return esc(text || '');
   const tokens = query.trim().split(/\s+/).filter(Boolean);
   let result = esc(text);
-  for (const tok of tokens) {
-    const re = new RegExp('(' + tok.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+  for (let i = 0; i < tokens.length; i++) {
+    const re = new RegExp('(' + tokens[i].replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
     result = result.replace(re, '<mark style="background:#fde047;padding:0 2px;border-radius:2px">$1</mark>');
   }
   return result;
@@ -479,11 +478,11 @@ function fuzzyMatch(text, query) {
   const t = (text || '').toLowerCase();
   const q = query.toLowerCase().trim();
   if (!q) return { match: true, score: 0 };
-  if (t.includes(q)) return { match: true, score: 10 };
+  if (t.indexOf(q) !== -1) return { match: true, score: 10 };
   const tokens = q.split(/\s+/);
   let allMatch = true;
-  for (const tok of tokens) {
-    if (!t.includes(tok)) { allMatch = false; break; }
+  for (let i = 0; i < tokens.length; i++) {
+    if (t.indexOf(tokens[i]) === -1) { allMatch = false; break; }
   }
   if (allMatch) return { match: true, score: 5 };
   let qi = 0;
@@ -498,18 +497,18 @@ function searchScore(a, q) {
   if (!q) return 1;
   const tokens = q.toLowerCase().trim().split(/\s+/);
   let total = 0;
-  for (const tok of tokens) {
+  for (let i = 0; i < tokens.length; i++) {
     const fields = [
       { v: a.title || '', w: 10 },
-      { v: (a.authors||[]).map(x=>x.name).join(' ') || '', w: 5 },
+      { v: (a.authors||[]).join(' ') || '', w: 5 },
       { v: (a.keywords||[]).join(' ') || '', w: 4 },
       { v: (a.research_area||[]).join(' ') || '', w: 3 },
       { v: a.abstract || '', w: 1 },
     ];
     let best = 0;
-    for (const f of fields) {
-      const m = fuzzyMatch(f.v, tok);
-      if (m.match) best = Math.max(best, m.score * f.w);
+    for (let j = 0; j < fields.length; j++) {
+      const m = fuzzyMatch(fields[j].v, tokens[i]);
+      if (m.match && m.score * fields[j].w > best) best = m.score * fields[j].w;
     }
     total += best;
   }
@@ -519,63 +518,70 @@ function searchScore(a, q) {
 /* ── Render ── */
 function render() {
   if (!filteredArticles.length) {
-    $list.innerHTML = `<div class="center-msg"><div style="font-size:2.5rem;margin-bottom:8px">🔍</div><div>No articles found</div></div>`;
+    $list.innerHTML = '<div class="center-msg"><div style="font-size:2.5rem;margin-bottom:8px">🔍</div><div>No articles found</div></div>';
     return;
   }
   
-  $stats.innerHTML = `
-    <div class="stat-chip"><span class="dot"></span><strong>${filteredArticles.length}</strong> articles</div>
-    <div class="stat-chip">Sorted by relevance</div>
-  `;
+  $stats.innerHTML = '<div class="stat-chip"><span class="dot"></span><strong>' + filteredArticles.length + '</strong> articles</div><div class="stat-chip">Sorted by relevance</div>';
   
-  $list.innerHTML = filteredArticles.map((a,i) => {
+  let html = '';
+  for (let i = 0; i < filteredArticles.length; i++) {
+    const a = filteredArticles[i];
     const idx = (a._origIdx !== undefined) ? a._origIdx : allArticles.indexOf(a);
     const origA = allArticles[idx] || a;
-    const formattedAuthors = (origA.authors||[]).map(au => {
-      const name = (au || '').trim();
-      return `<span style="display:inline-block;white-space:nowrap">${esc(name)}</span>`;
-    }).join(', ');
-    const shortNames = formattedAuthors;
-    const kws = (a.keywords||[]).slice(0,5).map(k => `<span class="kw">${highlight(k.replace(/<[^>]+>/g, ''), currentQuery)}</span>`).join('');
-    const volIssue = (a.volume || a.issue) ? `Vol.${a.volume||'?'} Iss. ${a.issue||'?'}` : '';
     
-    return `
-    <div class="card" data-idx="${idx}">
-      <div class="card-head" onclick="toggle(this.parentElement)">
-        <div class="card-title">${highlight(a.title.replace(/<[^>]+>/g, ''), currentQuery)}</div>
-        <div class="badges">
-          <span class="badge-year">${a.year || '?'}</span>
-          ${a.type ? `<span class="badge-type">${esc(a.type)}</span>` : ''}
-          ${volIssue ? `<span class="badge-type">${esc(volIssue)}</span>` : ''}
-          <button class="btn-expand" onclick="event.stopPropagation();toggle(this.closest('.card'))">Expand ▾</button>
-        </div>
-      </div>
-      <div class="card-authors">${shortNames}</div>
-      ${kws ? `<div class="card-keywords">${kws}</div>` : ''}
-      ${(a.research_area||[]).length > 0 ? `<div class="card-keywords"><span style="font-size:0.78rem;color:#666;margin-right:4px;font-weight:600">Research area:</span>${a.research_area.map(ar => `<span class="kw" style="background:#fff3e0;color:#e65100;font-weight:600">${esc(ar)}</span>`).join(' ')}</div>` : ''}
-      ${a.doi ? `<div class="card-doi"><a href="https://www.sciopen.com/article/${a.doi}" target="_blank" onclick="event.stopPropagation()">https://www.sciopen.com/article/${esc(a.doi)}</a></div>` : ''}
-      ${a.doi ? `
-      <div class="card-cite" onclick="event.stopPropagation()">
-        <span class="card-cite-text">${getCiteText(origA)}</span>
-        <button class="card-cite-btn" data-doi="${origA.doi}" onclick="copyCite(this)">Copy</button>
-        <button class="card-cite-btn" style="background:#27ae60" data-doi="${origA.doi}" onclick="downloadRIS(this)">RIS</button>
-        <button class="card-cite-btn" style="background:#9b59b6" data-doi="${origA.doi}" onclick="downloadBibTeX(this)">BibTeX</button>
-      </div>` : ''}
-      <div class="detail">
-        <div class="detail-grid">
-          ${a.doi ? `<div class="d-item"><label>DOI</label><span>${esc(a.doi)}</span></div>` : ''}
-          ${a.volume ? `<div class="d-item"><label>Volume(Issue)</label><span>${a.volume}(${a.issue})</span></div>` : ''}
-          ${a.firstpage ? `<div class="d-item"><label>Article number</label><span>${a.firstpage}</span></div>` : ''}
-          ${a.publication_date ? `<div class="d-item"><label>Published</label><span>${esc(a.publication_date)}</span></div>` : ''}
-        </div>
-        ${a.abstract ? `<div class="d-abstract"><strong>Abstract:</strong> ${highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery)}</div>` : ''}
-        <div class="d-links">
-          ${a.url ? `<a href="${a.url}" target="_blank" onclick="event.stopPropagation()">View on SciOpen →</a>` : ''}
-          ${a.pdf ? `<a href="${a.pdf}" target="_blank" onclick="event.stopPropagation()">Download PDF →</a>` : ''}
-        </div>
-      </div>
-    </div>`;
-  }).join('');
+    const formattedAuthors = (origA.authors||[]).map(function(au) {
+      return '<span style="display:inline-block;white-space:nowrap">' + esc(au || '') + '</span>';
+    }).join(', ');
+    
+    const kws = (a.keywords||[]).slice(0,5).map(function(k) {
+      return '<span class="kw">' + highlight(k.replace(/<[^>]+>/g, ''), currentQuery) + '</span>';
+    }).join('');
+    
+    const volIssue = (a.volume || a.issue) ? 'Vol.' + (a.volume||'?') + ' Iss. ' + (a.issue||'?') : '';
+    
+    let researchAreaHtml = '';
+    if ((a.research_area||[]).length > 0) {
+      researchAreaHtml = '<div class="card-keywords"><span style="font-size:0.78rem;color:#666;margin-right:4px;font-weight:600">Research area:</span>';
+      for (let j = 0; j < a.research_area.length; j++) {
+        researchAreaHtml += '<span class="kw" style="background:#fff3e0;color:#e65100;font-weight:600">' + esc(a.research_area[j]) + '</span>';
+      }
+      researchAreaHtml += '</div>';
+    }
+    
+    html += '<div class="card" data-idx="' + idx + '">';
+    html += '<div class="card-head" onclick="toggle(this.parentElement)">';
+    html += '<div class="card-title">' + highlight(a.title.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
+    html += '<div class="badges"><span class="badge-year">' + (a.year || '?') + '</span>';
+    if (a.type) html += '<span class="badge-type">' + esc(a.type) + '</span>';
+    if (volIssue) html += '<span class="badge-type">' + esc(volIssue) + '</span>';
+    html += '<button class="btn-expand" onclick="event.stopPropagation();toggle(this.closest(\'.card\'))">Expand ▾</button>';
+    html += '</div></div>';
+    html += '<div class="card-authors">' + formattedAuthors + '</div>';
+    if (kws) html += '<div class="card-keywords">' + kws + '</div>';
+    html += researchAreaHtml;
+    if (a.doi) html += '<div class="card-doi"><a href="https://www.sciopen.com/article/' + a.doi + '" target="_blank" onclick="event.stopPropagation()">https://www.sciopen.com/article/' + esc(a.doi) + '</a></div>';
+    if (a.doi) {
+      html += '<div class="card-cite" onclick="event.stopPropagation()">';
+      html += '<span class="card-cite-text">' + getCiteText(origA) + '</span>';
+      html += '<button class="card-cite-btn" data-doi="' + origA.doi + '" onclick="copyCite(this)">Copy</button>';
+      html += '<button class="card-cite-btn" style="background:#27ae60" data-doi="' + origA.doi + '" onclick="downloadRIS(this)">RIS</button>';
+      html += '<button class="card-cite-btn" style="background:#9b59b6" data-doi="' + origA.doi + '" onclick="downloadBibTeX(this)">BibTeX</button>';
+      html += '</div>';
+    }
+    html += '<div class="detail"><div class="detail-grid">';
+    if (a.doi) html += '<div class="d-item"><label>DOI</label><span>' + esc(a.doi) + '</span></div>';
+    if (a.volume) html += '<div class="d-item"><label>Volume(Issue)</label><span>' + a.volume + '(' + a.issue + ')</span></div>';
+    if (a.firstpage) html += '<div class="d-item"><label>Article number</label><span>' + a.firstpage + '</span></div>';
+    if (a.publication_date) html += '<div class="d-item"><label>Published</label><span>' + esc(a.publication_date) + '</span></div>';
+    html += '</div>';
+    if (a.abstract) html += '<div class="d-abstract"><strong>Abstract:</strong> ' + highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
+    html += '<div class="d-links">';
+    if (a.url) html += '<a href="' + a.url + '" target="_blank" onclick="event.stopPropagation()">View on SciOpen →</a>';
+    if (a.pdf) html += '<a href="' + a.pdf + '" target="_blank" onclick="event.stopPropagation()">Download PDF →</a>';
+    html += '</div></div></div>';
+  }
+  $list.innerHTML = html;
 }
 
 /* ── Toggle ── */
@@ -587,37 +593,40 @@ function toggle(card) {
 
 /* ── Cite text ── */
 function getCiteText(a) {
-  const authors = (a.authors||[]).map(au => {
+  const authors = (a.authors||[]).map(function(au) {
     const name = (au || '').trim();
     const parts = name.split(/\s+/);
     if (parts.length >= 2) return parts[parts.length-1] + ' ' + parts[0].charAt(0);
     return name;
   });
   if (authors.length > 3) {
-    return authors.slice(0,3).join(', ') + ', et al. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '. https://doi.org/' + (a.doi || '');
+    return authors.slice(0,3).join(', ') + ', et al. ' + (a.title || '') + '. Communications in Transportation Research, ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '. https://doi.org/' + (a.doi || '');
   }
-  return authors.join(', ') + '. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '. https://doi.org/' + (a.doi || '');
+  return authors.join(', ') + '. ' + (a.title || '') + '. Communications in Transportation Research, ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '. https://doi.org/' + (a.doi || '');
 }
 
 function copyCite(btn) {
-  const doi = btn.dataset.doi;
-  const a = allArticles.find(x => x.doi === doi);
+  const doi = btn.getAttribute('data-doi');
+  const a = allArticles.find(function(x) { return x.doi === doi; });
   if (!a) return;
   const citeText = getCiteText(a);
-  navigator.clipboard.writeText(citeText).then(() => {
-    btn.textContent = 'Copied!';
-    btn.classList.add('copied');
-    setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1500);
-  }).catch(e => {
-    console.error('Copy failed:', e);
-    btn.textContent = 'Copy';
-  });
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(citeText).then(function() {
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(function() { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1500);
+    }).catch(function(e) {
+      console.error('Copy failed:', e);
+      btn.textContent = 'Copy';
+    });
+  } else {
+    alert('Clipboard not available. Cite text:\n\n' + citeText);
+  }
 }
 
-/* ── Download RIS ── */
 function downloadRIS(btn) {
-  const doi = btn.dataset.doi;
-  const a = allArticles.find(x => x.doi === doi);
+  const doi = btn.getAttribute('data-doi');
+  const a = allArticles.find(function(x) { return x.doi === doi; });
   if (!a) return;
   const ris = a.ris || generateRIS(a);
   const blob = new Blob([ris], { type: 'application/x-research-info-systems;charset=utf-8;' });
@@ -627,13 +636,12 @@ function downloadRIS(btn) {
   document.body.appendChild(link); link.click();
   document.body.removeChild(link); URL.revokeObjectURL(url);
   btn.textContent = 'Done!';
-  setTimeout(() => { btn.textContent = 'RIS'; }, 1500);
+  setTimeout(function() { btn.textContent = 'RIS'; }, 1500);
 }
 
-/* ── Download BibTeX ── */
 function downloadBibTeX(btn) {
-  const doi = btn.dataset.doi;
-  const a = allArticles.find(x => x.doi === doi);
+  const doi = btn.getAttribute('data-doi');
+  const a = allArticles.find(function(x) { return x.doi === doi; });
   if (!a) return;
   const bibtex = a.bibtex || generateBibTeX(a);
   const filename = (a.doi || 'article').replace(/\//g, '_') + '.bib';
@@ -644,13 +652,13 @@ function downloadBibTeX(btn) {
   document.body.appendChild(link); link.click();
   document.body.removeChild(link); URL.revokeObjectURL(url);
   btn.textContent = 'Done!';
-  setTimeout(() => { btn.textContent = 'BibTeX'; }, 1500);
+  setTimeout(function() { btn.textContent = 'BibTeX'; }, 1500);
 }
 
 function generateRIS(a) {
   const ris = [];
   ris.push('TY  - JOUR');
-  (a.authors||[]).forEach(au => {
+  (a.authors||[]).forEach(function(au) {
     const name = au || '';
     const parts = name.trim().split(/\s+/);
     if (parts.length >= 2) {
@@ -671,42 +679,22 @@ function generateRIS(a) {
     ris.push('UR  - https://doi.org/' + a.doi);
     ris.push('DO  - ' + a.doi);
   }
-    return ris.join('\r\n') + '\r\n';
+  return ris.join('\r\n') + '\r\n';
 }
 
 function generateBibTeX(a) {
   const first_author = (a.authors?.[0] || 'Unknown').split(/\s+/).pop() || 'Unknown';
   const year = a.year || '2025';
   const key = first_author + year;
-  const authors_bib = (a.authors||[]).map(au => au).join(' and ');
-  let bib = '@article{' + key + ', 
-\n';
-  bib += 'author = {' + authors_bib + '},
-\n';
-  bib += 'title = {' + (a.title || '') + '},
-\n';
-  bib += 'year = {' + year + '},
-\n';
-  bib += 'journal = {Communications in Transportation Research},
-\n';
-  if (a.volume) bib += 'volume = {' + a.volume + '},
-\n';
-  if (a.issue) bib += 'number = {' + a.issue + '},
-\n';
-  if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},
-\n';
-  if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},
-\n';
-  if (a.doi) {
-    bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},
-\n';
-    bib += 'doi = {' + a.doi + '},
-\n';
-  }
-  if (a.abstract) bib += 'abstract = {' + a.abstract + '}';
-  bib += '}';
-  return bib;
-}
+  const authors_bib = (a.authors||[]).join(' and ');
+  let bib = '@article{' + key + ', \r\n';
+  bib += 'author = {' + authors_bib + '},\r\n';
+  bib += 'title = {' + (a.title || '') + '},\r\n';
+  bib += 'year = {' + year + '},\r\n';
+  bib += 'journal = {Communications in Transportation Research},\r\n';
+  if (a.volume) bib += 'volume = {' + a.volume + '},\r\n';
+  if (a.issue) bib += 'number = {' + a.issue + '},\r\n';
+  if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},\r\n';
   if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\r\n';
   if (a.doi) {
     bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
@@ -740,7 +728,7 @@ $area.addEventListener('change', applyFilters);
 
 function debounce(fn, ms) {
   let t;
-  return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
+  return function() { const args = arguments; clearTimeout(t); t = setTimeout(function() { fn.apply(null, args); }, ms); };
 }
 
 /* ── Init ── */
