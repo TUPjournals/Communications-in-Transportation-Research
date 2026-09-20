@@ -589,13 +589,13 @@ function getCiteText(a) {
   const authors = (a.authors||[]).map(au => {
     const name = (au || '').trim();
     const parts = name.split(/\s+/);
-    if (parts.length >= 2) return parts[0] + ' ' + parts[parts.length-1][0] + '.';
+    if (parts.length >= 2) return parts[parts.length-1] + ' ' + parts[0].charAt(0);
     return name;
   });
   if (authors.length > 3) {
-    return authors.slice(0,3).join(', ') + ', et al. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '-' + (a.lastpage||'') + '. https://doi.org/' + (a.doi || '');
+    return authors.slice(0,3).join(', ') + ', et al. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '. https://doi.org/' + (a.doi || '');
   }
-  return authors.join(', ') + '. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '-' + (a.lastpage||'') + '. https://doi.org/' + (a.doi || '');
+  return authors.join(', ') + '. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '. https://doi.org/' + (a.doi || '');
 }
 
 function copyCite(idx) {
