@@ -695,6 +695,7 @@ function generateBibTeX(a) {
   if (a.volume) bib += 'volume = {' + a.volume + '},\r\n';
   if (a.issue) bib += 'number = {' + a.issue + '},\r\n';
   if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},\r\n';
+  else if (a.firstpage) bib += 'pages = {' + a.firstpage + '},\r\n';
   if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\r\n';
   if (a.doi) {
     bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
