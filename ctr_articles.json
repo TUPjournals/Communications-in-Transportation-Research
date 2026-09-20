@@ -949,58 +949,6 @@
     "ris": "TY  - JOUR\r\nAU  - McCabe, Dan\r\nAU  - Ban, Xuegang (Jeff)\r\nAU  - Kulcsár, Balaźs\r\nPY  - 2025\r\nTI  - Minimum-delay opportunity charging scheduling for electricbuses\r\nJO  - Communications in Transportation Research\r\nSN  - 2097-5023\r\nSP  - 100209\r\nVL  - 5\r\nIS  - 4\r\nAB  - AbstractTransit agencies that operate battery-electric buses must carefully manage fast-charging infrastructure to extend daily bus range without degrading on-time performance. To support this need, we propose a mixed-integer linear programming model to schedule opportunity charging that minimizes the amount of departure delay in all trips served by electric buses. Our novel approach directly tracks queuing at chargers in order to set and propagate departure delays. Allowing but minimizing delays makes it possible to optimize performance when delays due to traffic conditions and charging needs are inevitable, in contrast with existing methods that require charging to occur during scheduled layover time. To solve the model, we develop two algorithms based on decomposition. The first is an exact solution method based on combinatorial Benders (CB) decomposition, which avoids directly enumerating the model’s logic-based “big M” constraints and their inevitable computational challenges. The second, inspired by the CB approach but more efficient, is a polynomial-time heuristic based on linear programming that we call Select–Sequence–Schedule (3S). Computational experiments on both a simple notional transit network and the real bus system of King County, Washington, USA demonstrate the performance of both methods. The 3S method appears particularly promising for creating good charging schedules quickly at real-world scale.\r\nUR  - https://doi.org/10.1016/j.commtr.2025.100209\r\nDO  - 10.1016/j.commtr.2025.100209\r\n"
   },
   {
-    "doi": "10.1016/j.commtr.2025.100217",
-    "title": "Corrigendum to “Interaction dataset of autonomous vehicles with traffic lights and signs”[Communications. Transp. Res. 5 (2025) 100201]",
-    "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100217",
-    "volume": "5",
-    "issue": "3",
-    "authors": [
-      "Zheng Li",
-      "Zhipeng Bao",
-      "Haoming Meng",
-      "Haotian Shi",
-      "Qianwen Li",
-      "Handong Yao",
-      "Xiaopeng Li"
-    ],
-    "affiliations": [
-      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. Department of Computer Science,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
-      "School of Environmental, Civil, Agricultural and Mechanical Engineering,University of Georgia, 30602-7229,",
-      "Department of Computer Science,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
-      "College of Transportation Engineering,CHINA. Tongji University, 201804,CHINA. Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. ",
-      "School of Environmental, Civil, Agricultural and Mechanical Engineering,University of Georgia, 30602-7229,",
-      "School of Environmental, Civil, Agricultural and Mechanical Engineering,University of Georgia, 30602-7229,",
-      "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES. "
-    ],
-    "keywords": [
-      "Autonomous vehicles (AVs)",
-      "Traffic lights",
-      "Stop signs",
-      "Interaction data",
-      "Waymo motion dataset"
-    ],
-    "abstract": "",
-    "firstpage": "100217",
-    "lastpage": "",
-    "publication_date": "2025/9/1",
-    "online_date": "2025/10/13",
-    "publisher": "清华大学出版社",
-    "issn": "2097-5023",
-    "language": "en",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.1016/j.commtr.2025.100217.pdf",
-    "type": "Erratum",
-    "received": "",
-    "revised": "",
-    "accepted": "",
-    "published": "",
-    "year": 2025,
-    "research_area": [
-      "Autonomous Driving"
-    ],
-    "bibtex": "@article{Li2025, \r\nauthor = {Zheng Li and Zhipeng Bao and Haoming Meng and Haotian Shi and Qianwen Li and Handong Yao and Xiaopeng Li},\r\ntitle = {Corrigendum to “Interaction dataset of autonomous vehicles with traffic lights and signs”[Communications. Transp. Res. 5 (2025) 100201]},\r\nyear = {2025},\r\njournal = {Communications in Transportation Research},\r\nvolume = {5},\r\nnumber = {3},\r\nkeywords = {Autonomous vehicles (AVs), Traffic lights, Stop signs, Interaction data, Waymo motion dataset},\r\nurl = {https://doi.org/10.1016/j.commtr.2025.100217},\r\ndoi = {10.1016/j.commtr.2025.100217},\r\n}",
-    "ris": "TY  - JOUR\r\nAU  - Li, Zheng\r\nAU  - Bao, Zhipeng\r\nAU  - Meng, Haoming\r\nAU  - Shi, Haotian\r\nAU  - Li, Qianwen\r\nAU  - Yao, Handong\r\nAU  - Li, Xiaopeng\r\nPY  - 2025\r\nTI  - Corrigendum to “Interaction dataset of autonomous vehicles with traffic lights and signs”[Communications. Transp. Res. 5 (2025) 100201]\r\nJO  - Communications in Transportation Research\r\nSN  - 2097-5023\r\nSP  - 100217\r\nVL  - 5\r\nIS  - 3\r\nUR  - https://doi.org/10.1016/j.commtr.2025.100217\r\nDO  - 10.1016/j.commtr.2025.100217\r\n"
-  },
-  {
     "doi": "10.1016/j.commtr.2025.100211",
     "title": "A knowledge-informed deep learning paradigm for generaliz-able and stability-optimized car-following models",
     "url": "https://www.sciopen.com/article/10.1016/j.commtr.2025.100211",
