@@ -674,28 +674,39 @@ function generateRIS(a) {
     return ris.join('\r\n') + '\r\n';
 }
 
-/* ── Download BibTeX ── */
-function downloadBibTeX(idx) {
-  const a = allArticles[idx];
-  if (!a) return;
-  const bibtex = a.bibtex || generateBibTeX(a);
-  const filename = (a.doi || 'article').replace(/\//g, '_') + '.bib';
-  download(bibtex, filename, 'application/x-bibtex;charset=utf-8;');
-}
-
 function generateBibTeX(a) {
   const first_author = (a.authors?.[0] || 'Unknown').split(/\s+/).pop() || 'Unknown';
   const year = a.year || '2025';
   const key = first_author + year;
-  const authors_bib = (a.authors||[]).map(au => au.name).join(' and ');
-  let bib = '@article{' + key + ', \r\n';
-  bib += 'author = {' + authors_bib + '},\r\n';
-  bib += 'title = {' + (a.title || '') + '},\r\n';
-  bib += 'year = {' + year + '},\r\n';
-  bib += 'journal = {Communications in Transportation Research},\r\n';
-  if (a.volume) bib += 'volume = {' + a.volume + '},\r\n';
-  if (a.issue) bib += 'number = {' + a.issue + '},\r\n';
-  if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},\r\n';
+  const authors_bib = (a.authors||[]).map(au => au).join(' and ');
+  let bib = '@article{' + key + ', 
+\n';
+  bib += 'author = {' + authors_bib + '},
+\n';
+  bib += 'title = {' + (a.title || '') + '},
+\n';
+  bib += 'year = {' + year + '},
+\n';
+  bib += 'journal = {Communications in Transportation Research},
+\n';
+  if (a.volume) bib += 'volume = {' + a.volume + '},
+\n';
+  if (a.issue) bib += 'number = {' + a.issue + '},
+\n';
+  if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},
+\n';
+  if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},
+\n';
+  if (a.doi) {
+    bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},
+\n';
+    bib += 'doi = {' + a.doi + '},
+\n';
+  }
+  if (a.abstract) bib += 'abstract = {' + a.abstract + '}';
+  bib += '}';
+  return bib;
+}
   if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\r\n';
   if (a.doi) {
     bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
