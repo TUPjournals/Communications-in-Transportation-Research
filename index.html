@@ -454,7 +454,7 @@ function applyFilters() {
       if (av && !(a.research_area||[]).includes(av)) return null;
       const score = searchScore(a, q);
       if (q && score === 0) return null;
-      return { ...a, _score: score, _q: q };
+      return { ...a, _score: score, _q: q, _origIdx: allArticles.indexOf(a) };
     })
     .filter(Boolean)
     .sort((a, b) => b._score - a._score);
@@ -529,8 +529,9 @@ function render() {
   `;
   
   $list.innerHTML = filteredArticles.map((a,i) => {
-    const idx = allArticles.indexOf(a);
-    const formattedAuthors = (a.authors||[]).map(au => {
+    const idx = (a._origIdx !== undefined) ? a._origIdx : allArticles.indexOf(a);
+    const origA = allArticles[idx] || a;
+    const formattedAuthors = (origA.authors||[]).map(au => {
       const name = (au || '').trim();
       return `<span style="display:inline-block;white-space:nowrap">${esc(name)}</span>`;
     }).join(', ');
