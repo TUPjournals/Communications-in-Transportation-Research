@@ -3497,10 +3497,21 @@
       "Ran Yan",
       "Mingyang Zhang"
     ],
-    "abstract": "",
-    "keywords": [],
+    "abstract": "Intelligent maritime transportation systems (IMTSs) have become increasingly critical for enhancing navigational safety, improving operational efficiency, and supporting autonomous decision-making in maritime domains. With the growing volume and complexity of maritime operations, IMTSs have evolved rapidly through the integration of emerging technologies such as the internet of things (IoT), satellite communication, and artificial intelligence (AI). Among these, deep learning (DL) has shown particular promise, offering powerful capabilities to extract complex patterns from large-scale maritime data and enabling advancements in applications such as ship detection, trajectory prediction, collision avoidance, and traffic flow modeling. Despite these developments, a comprehensive review that critically assesses the strengths and weaknesses of these models, especially the DL-based models used in IMTSs, is lacking. As such, this study contributes to bridging this gap with a quantitative review of the technological evolution of IMTS and a systematic analysis of DL-based research within IMTSs, covering key domains such as risk assessment, autonomous navigation, situation awareness, and intelligent decision-making. Furthermore, this study highlights key challenges in recent research and identifies future research directions. This study not only provides a holistic understanding of how DL has transformed maritime intelligence but also offers practical insights for developing safe and more efficient IMTSs.",
+    "keywords": [
+      "intelligent maritime transportation systems (IMTSs)",
+      "deep learning (DL)",
+      "autonomous navigation",
+      "maritime safety",
+      "artificial intelligence (AI)",
+      "data-driven maritime systems"
+    ],
     "url": "https://www.sciopen.com/article/10.26599/COMMTR.2026.9640006",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640006.pdf"
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640006.pdf",
+    "research_area": [
+      "Intelligent Transportation Systems",
+      "Data-driven and Machine Learning"
+    ]
   },
   {
     "id": "2044299334318129154",
@@ -3559,12 +3570,29 @@
       "Jiaxin Liu",
       "Liang Peng",
       "Xiangyu Yan",
+      "Lingjun Zhang",
+      "Chenye Yang",
+      "Yueming Tao",
+      "Ashton Yu Xuan Tan",
+      "Tianli Xu",
+      "Sai Guo",
+      "Hong Wang",
       "Jun Li"
     ],
-    "abstract": "",
-    "keywords": [],
+    "abstract": "As autonomous vehicle technology continues to evolve, ensuring its safety in complex and dynamic environments has become a critical challenge. Knowledge graphs (KGs) and large language models (LLMs), as two cutting-edge approaches representing the forefront of knowledge-driven and connectionist paradigms in modern artificial intelligence, are emerging as powerful tools for enhancing autonomous vehicle safety. In this study, we provide a comprehensive review of the applications of KGs and LLMs in enhancing the safety of autonomous driving systems. Building upon a brief introduction to the fundamental concepts and underlying technologies of KGs and LLMs, we then present their respective applications in autonomous vehicle safety from complementary perspectives. We further compare the advantages and limitations of KGs and LLMs in terms of knowledge representation, inference capability, scalability, and real-time performance. To leverage the complementary strengths of structured knowledge and language based reasoning, we review existing research efforts that integrate KGs and LLMs in the context of autonomous vehicle (AV) safety enhancement. Based on this analysis, we propose a hybrid safety-enhancement framework that combines explicit knowledge structures of KGs with the flexible reasoning capabilities of LLMs, offering a promising direction toward more robust, interpretable, and adaptive autonomous driving systems.",
+    "keywords": [
+      "knowledge graph (KG)",
+      "large language model (LLM)",
+      "bidirectional reasoning",
+      "autonomous vehicle safety",
+      "risk cognition"
+    ],
     "url": "https://www.sciopen.com/article/10.26599/COMMTR.2026.9640023",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640023.pdf"
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640023.pdf",
+    "research_area": [
+      "Autonomous Driving",
+      "Data-driven and Machine Learning"
+    ]
   },
   {
     "id": "2029088922618363906",
@@ -3623,12 +3651,23 @@
       "Heye Huang",
       "Yibin Yang",
       "Mingfeng Fan",
+      "Haoran Wang",
+      "Xiaocong Zhao",
       "Jianqiang Wang"
     ],
-    "abstract": "",
-    "keywords": [],
+    "abstract": "Safe autonomous driving in mixed traffic requires a unified understanding of multimodal interactions and dynamic planning under uncertainty. Existing learning-based methods often fail to capture rare but safety-critical behaviors, while rule-based systems lack adaptability in complex interactions. To address these limitations, we proposed CogDrive, a cognition-driven multimodal prediction-planning fusion framework that integrated explicit modal reasoning with safety-aware decision optimization. The prediction module introduced cognitive representations of interaction modes based on topological motion semantics and nearest-neighbor relational encoding. By incorporating a differentiable modal loss and multimodal Gaussian decoding, CogDrive effectively learned sparse and unbalanced interaction behaviors, improving long-tail trajectory prediction accuracy. The planning module was built upon an emergency-response concept and developed a safety-stabilized trajectory tree optimization. Short-term consistent root trajectories ensured safety within replanning cycles, while long-term branches provided smooth and collision-free avoidance under low-probability or rapidly switching modes. Experiments on the Argoverse 2 and INTERACTION datasets showed that CogDrive achieved state-of-the-art performance, reducing the minADE and miss rates while maintaining smoothness. Closed-loop simulations further confirmed stable and adaptive behavior across strong-interaction scenarios such as merging and intersections. By coupling cognitive multimodal prediction with safety-oriented planning, CogDrive establishes an interpretable and reliable paradigm for safe autonomy in complex traffic.",
+    "keywords": [
+      "safe autonomy",
+      "cognitive modeling",
+      "multimodal prediction",
+      "dense traffic"
+    ],
     "url": "https://www.sciopen.com/article/10.26599/COMMTR.2026.9640016",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640016.pdf"
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640016.pdf",
+    "research_area": [
+      "Autonomous Driving",
+      "Data-driven and Machine Learning"
+    ]
   },
   {
     "id": "2033785245326180354",
@@ -3688,10 +3727,20 @@
       "Yuting Liu",
       "Feixiong Liao"
     ],
-    "abstract": "",
-    "keywords": [],
+    "abstract": "The replacement of existing private cars is crucial for the sustainable penetration of electric vehicles (EVs). However, the intentions of current fuel vehicle (FV) owners and EV owners are fundamentally different yet rarely compared within a unified framework. This study develops a novel hybrid model integrating the push-pull-mooring (PPM) framework with a user acceptance model and a customer satisfaction index to investigate these heterogeneous behavioral mechanisms. Applying multigroup structural equation modeling to a sample of 803 vehicle owners in China (386 FV, 417 EV), our analysis reveals a core asymmetry: FV owners\\u2019 switching intention is driven by pragmatic pull factors (price value and facilitating conditions), whereas EV owners\\u2019 continuance intention is supported by a crucial mooring anchor (habit) and a broader network of pull factors. Notably, as a push factor, user satisfaction (US) does not directly influence intentions for either group but operates through complex indirect pathways, shaping perceptions of value and habit. These findings yield segment specific recommendations for policymakers and industry stakeholders to design differentiated strategies that convert pragmatic switchers while retaining reinforced loyalists.",
+    "keywords": [
+      "electric vehicle",
+      "switching intention",
+      "continuance intention",
+      "push-pull-mooring",
+      "user acceptance"
+    ],
     "url": "https://www.sciopen.com/article/10.26599/COMMTR.2026.9640019",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640019.pdf"
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640019.pdf",
+    "research_area": [
+      "Transportation Safety",
+      "Sustainable Transportation"
+    ]
   },
   {
     "id": "2034912762342735874",
@@ -3750,12 +3799,23 @@
       "Jiangtao Zhang",
       "Yuan Cao",
       "Yuntong An",
+      "Feng Wang",
+      "Yongkui Sun",
       "Shuai Su"
     ],
-    "abstract": "",
-    "keywords": [],
+    "abstract": "Heavy-haul railways are critical for transporting freight. However, prolonged wheel\\u2013rail interactions cause frequent rail defects, particularly in small-radius curve sections. Ultrasonic amplitude scan (A-scan) signals are essential for the nondestructive testing of internal rail defects. In real heavy-haul environments, these signals suffer from strong non-Gaussian coupled noise. Such noise includes structural noise, low-frequency irrelevant components, and high-frequency electrical noise. Noise aliasing obscures defect echoes and increases the risk of missed detections. Conventional denoising methods are limited by poor noise\\u2013signal separability, mode mixing, and inadequate adaptability to complex non-Gaussian signals. To address these challenges, an A-scan signal model under noise coupled conditions was constructed by analyzing the statistical and time\\u2013frequency characteristics of different noise components. Based on this model, a multi feature fusion filtering framework was developed within the ideal binary mask (IBM) paradigm. This framework was designed to enhance defect echo extraction from ultrasonic A-scan signals under strong non-Gaussian interference. Tests on field inspection data showed that the proposed method effectively suppressed coupled noise and achieved accurate extraction of defect echoes.",
+    "keywords": [
+      "heavy-haul railway",
+      "ultrasonic amplitude scan (A-scan) signal",
+      "multi feature fusion",
+      "mask filtering"
+    ],
     "url": "https://www.sciopen.com/article/10.26599/COMMTR.2026.9640021",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640021.pdf"
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640021.pdf",
+    "research_area": [
+      "Intelligent Transportation Systems",
+      "Data-driven and Machine Learning"
+    ]
   },
   {
     "id": "2057727064598474753",
@@ -3814,12 +3874,22 @@
       "Jianing Liu",
       "Bing Song",
       "Vinayak Dixit",
+      "Chenyang Wu",
       "Sisi Jian"
     ],
-    "abstract": "",
-    "keywords": [],
+    "abstract": "Large language models (LLMs) are increasingly used as agents to simulate human behavior, yet their fidelity in complex decision-making under uncertainty remains insufficiently understood. To address this gap, we developed a comparative framework that benchmarked LLM-simulated risk preferences against empirical human behavior. Using demographic profiles from surveys conducted in Sydney, Hong Kong, and Nanjing, we constructed role-playing prompts and evaluated three LLMs on abstract lottery-choice tasks. We adopted the classical constant relative risk aversion (CRRA) framework as a domain-neutral \\u201Cstandard ruler\\u201D to compare risk attitudes. The analysis yielded three main findings. First, off-the-shelf LLMs do not exhibit a universal risk profile: The two GPT models are more risk-averse than human benchmarks, whereas Gemini is more risk-seeking. Second, prompt language systematically affects simulated risk attitudes, with English-to-Chinese switching inducing a more conservative shift in most cases. Third, LLMs do not reliably reproduce the empirical heterogeneity of human risk preferences, tending either to generate overly concentrated distributions or unrealistically large dispersion. Taken together, these findings show that off-the-shelf LLMs remain vulnerable to model-family-specific miscalibration, language-sensitive distortions, and failures in distributional fidelity. Rigorous empirical calibration is therefore necessary before off-the-shelf LLMs can be reliably deployed in computational social science and choice modeling.",
+    "keywords": [
+      "large language model (LLM)",
+      "risk attitude",
+      "stated preference survey",
+      "lottery choice games"
+    ],
     "url": "https://www.sciopen.com/article/10.26599/COMMTR.2026.9640025",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640025.pdf"
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640025.pdf",
+    "research_area": [
+      "Human Factors",
+      "Data-driven and Machine Learning"
+    ]
   },
   {
     "id": "2057729167421173762",
@@ -3878,12 +3948,26 @@
       "Xiaobo Qu",
       "Keqiang Li",
       "Constantinos Antoniou",
+      "Nikolas Geroliminis",
       "Shuaian Wang"
     ],
-    "abstract": "",
-    "keywords": [],
+    "abstract": "We are living through a pivotal era of mobility transformation. This integrated research agenda, developed by some of the coeditors-in-chief of the Transportation Research journal series, identifies critical directions across four interconnected pillars. First, reimagining future urban mobility systems requires the orchestration of microtransit ecosystems and low-altitude operations into ground\\u2013air cooperative networks. Second, core enabling technologies must advance verifiable autonomous intelligence, hierarchical vehicle\\u2013road\\u2013cloud (VRC) control, and decoupled development platforms to ensure safety and scalability. Third, translating data abundance into actionable insights demands rigorous methods for data fusion and bias correction, alongside sustained commitment to granular equity, accessibility, and mobility justice. Fourth, sustainability hinges on coherent policy instruments and equitable emissions allocation across passengers, cargo, and infrastructure. Across these pillars, technological innovation must be coupled with systemic integration, equitable governance, and rigorous sustainability metrics to build resilient, low-carbon, and human-centric mobility systems for the future.",
+    "keywords": [
+      "future transportation systems",
+      "microtransit",
+      "low-altitude mobility",
+      "autonomous driving",
+      "mobility justice",
+      "data-driven policy",
+      "emission allocation"
+    ],
     "url": "https://www.sciopen.com/article/10.26599/COMMTR.2026.9640028",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640028.pdf"
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640028.pdf",
+    "research_area": [
+      "Sustainable Transportation",
+      "Public Transit",
+      "Policy"
+    ]
   },
   {
     "id": "2058811835088990210",
@@ -3944,10 +4028,20 @@
       "Wenjie Zhao",
       "Qianwen Li"
     ],
-    "abstract": "",
-    "keywords": [],
+    "abstract": "With the rapid growth of the electric vehicle (EV) market, one-pedal driving (OPD) has become a widely adopted feature in modern EVs. This study addresses two key questions of OPD: (1) Its influence on EV car-following behavior and (2) its interaction with adaptive cruise control (ACC). To explore these questions, field experiments were conducted to empirically compare one-pedal and two-pedal driving (TPD) under both manual control and ACC settings. Statistical and comparative analyses reveal significant behavioral differences across control settings. Under manual control, OPD produces more pronounced speed oscillations and sharper decelerations with quicker responses, primarily because acceleration and braking are managed solely through the accelerator pedal. Drivers, especially those less experienced, struggle with fine speed modulation, resulting in greater variability. These findings highlight the need to account for driver familiarity and heterogeneity when modeling OPD behavior. Under ACC, OPD yields narrower distributions of speed, acceleration, and spacing, indicating smoother and more conservative control, while both modes exhibit similar response delays. This suggests that integrating OPD with ACC can attenuate disturbance propagation and enhance platoon stability. The findings contribute to a deeper understanding of the influence of OPD on car-following behavior and provide practical insights for developing and tuning ACC systems that effectively leverage regenerative braking to improve traffic flow efficiency and system stability.",
+    "keywords": [
+      "regenerative braking",
+      "adaptive cruise control (ACC)",
+      "manual control",
+      "pedal driving",
+      "car-following"
+    ],
     "url": "https://www.sciopen.com/article/10.26599/COMMTR.2026.9640030",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640030.pdf"
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640030.pdf",
+    "research_area": [
+      "Traffic Flow",
+      "Autonomous Driving"
+    ]
   },
   {
     "id": "2055180101780824065",
@@ -4006,12 +4100,18 @@
       "Senyun Kuang",
       "Ziyu Wang",
       "Yang Liu",
+      "Xiaoyu Wen",
+      "Lv Tang",
       "Yintao Wei"
     ],
     "abstract": "",
     "keywords": [],
     "url": "https://www.sciopen.com/article/10.26599/COMMTR.2026.9640026",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640026.pdf"
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640026.pdf",
+    "research_area": [
+      "Autonomous Driving",
+      "Data-driven and Machine Learning"
+    ]
   },
   {
     "id": "2060203430359126017",
@@ -4070,11 +4170,16 @@
       "Shulu Chen",
       "Di Lv",
       "Yuhao Wang",
+      "Kai Wang",
       "Xiaobo Qu"
     ],
     "abstract": "",
     "keywords": [],
     "url": "https://www.sciopen.com/article/10.26599/COMMTR.2026.9640032",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640032.pdf"
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640032.pdf",
+    "research_area": [
+      "Network Design",
+      "Intelligent Transportation Systems"
+    ]
   }
 ]
