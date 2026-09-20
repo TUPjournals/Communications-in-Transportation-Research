@@ -589,9 +589,9 @@ function getCiteText(a) {
     return name;
   });
   if (authors.length > 3) {
-    return authors.slice(0,3).join(', ') + ', et al. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '. https://www.sciopen.com/article/' + (a.doi || '');
+    return authors.slice(0,3).join(', ') + ', et al. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '-' + (a.lastpage||'') + '. https://doi.org/' + (a.doi || '');
   }
-  return authors.join(', ') + '. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '. https://www.sciopen.com/article/' + (a.doi || '');
+  return authors.join(', ') + '. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '-' + (a.lastpage||'') + '. https://doi.org/' + (a.doi || '');
 }
 
 function copyCite(idx) {
