@@ -557,9 +557,9 @@ function render() {
       ${a.doi ? `
       <div class="card-cite" onclick="event.stopPropagation()">
         <span class="card-cite-text">${getCiteText(origA)}</span>
-        <button class="card-cite-btn" onclick="copyCite(this, origA)">Copy</button>
-        <button class="card-cite-btn" style="background:#27ae60" onclick="downloadRIS(this, origA)">RIS</button>
-        <button class="card-cite-btn" style="background:#9b59b6" onclick="downloadBibTeX(this, origA)">BibTeX</button>
+        <button class="card-cite-btn" data-doi="${origA.doi}" onclick="copyCite(this)">Copy</button>
+        <button class="card-cite-btn" style="background:#27ae60" data-doi="${origA.doi}" onclick="downloadRIS(this)">RIS</button>
+        <button class="card-cite-btn" style="background:#9b59b6" data-doi="${origA.doi}" onclick="downloadBibTeX(this)">BibTeX</button>
       </div>` : ''}
       <div class="detail">
         <div class="detail-grid">
@@ -599,7 +599,9 @@ function getCiteText(a) {
   return authors.join(', ') + '. ' + (a.title || '') + '. ' + 'Communications in Transportation Research' + ', ' + (a.year || '') + ', ' + (a.volume||'') + '(' + (a.issue||'') + '): ' + (a.firstpage||'') + '. https://doi.org/' + (a.doi || '');
 }
 
-function copyCite(btn, a) {
+function copyCite(btn) {
+  const doi = btn.dataset.doi;
+  const a = allArticles.find(x => x.doi === doi);
   if (!a) return;
   const citeText = getCiteText(a);
   navigator.clipboard.writeText(citeText).then(() => {
@@ -613,7 +615,9 @@ function copyCite(btn, a) {
 }
 
 /* ── Download RIS ── */
-function downloadRIS(btn, a) {
+function downloadRIS(btn) {
+  const doi = btn.dataset.doi;
+  const a = allArticles.find(x => x.doi === doi);
   if (!a) return;
   const ris = a.ris || generateRIS(a);
   const blob = new Blob([ris], { type: 'application/x-research-info-systems;charset=utf-8;' });
@@ -627,7 +631,9 @@ function downloadRIS(btn, a) {
 }
 
 /* ── Download BibTeX ── */
-function downloadBibTeX(btn, a) {
+function downloadBibTeX(btn) {
+  const doi = btn.dataset.doi;
+  const a = allArticles.find(x => x.doi === doi);
   if (!a) return;
   const bibtex = a.bibtex || generateBibTeX(a);
   const filename = (a.doi || 'article').replace(/\//g, '_') + '.bib';
