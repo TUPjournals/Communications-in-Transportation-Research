@@ -344,11 +344,33 @@ mark {
   border-radius: 2px;
 }
 
+/* Back to top */
+.back-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #1565c0;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s, background 0.2s;
+  z-index: 99;
+  box-shadow: 0 2px 12px rgba(21,101,192,0.3);
+}
+.back-top.visible { opacity: 1; }
+.back-top:hover { background: #0d47a1; }
+
 @media (max-width: 768px) {
   .header-inner { flex-direction: column; align-items: flex-start; }
   .search-row { flex-direction: column; }
   .search-wrap { width: 100%; }
   .filter-select { width: 100%; }
+  .back-top { width: 42px; height: 42px; bottom: 20px; right: 20px; }
 }
 </style>
 </head>
@@ -388,6 +410,8 @@ mark {
 <div class="footer">
   Communications in Transportation Research © 2024–2026 — Data from <a href="https://www.sciopen.com" target="_blank">SciOpen</a>
 </div>
+
+<button id="backTop" class="back-top" title="Back to search">▴</button>
 
 <script>
 const DATA_URL = 'ctr_articles.json';
@@ -731,6 +755,16 @@ function debounce(fn, ms) {
   let t;
   return function() { const args = arguments; clearTimeout(t); t = setTimeout(function() { fn.apply(null, args); }, ms); };
 }
+
+/* ── Back to top ── */
+const $backTop = document.getElementById('backTop');
+window.addEventListener('scroll', () => {
+  $backTop.classList.toggle('visible', window.scrollY > 400);
+});
+$backTop.addEventListener('click', () => {
+  $search.focus();
+  $search.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
 
 /* ── Init ── */
 loadData();
