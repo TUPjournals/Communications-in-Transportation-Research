@@ -584,7 +584,7 @@ function render() {
     html += '<div class="card-authors">' + formattedAuthors + '</div>';
     if (kws) html += '<div class="card-keywords">' + kws + '</div>';
     html += researchAreaHtml;
-    if (a.doi) html += '<div class="card-doi"><a href="https://www.sciopen.com/article/' + a.doi + '" target="_blank" onclick="event.stopPropagation()">https://www.sciopen.com/article/' + esc(a.doi) + '</a></div>';
+    if (a.doi) html += '<div class="card-doi"><a href="https://doi.org/' + a.doi + '" target="_blank" onclick="event.stopPropagation()">https://www.sciopen.com/article/' + esc(a.doi) + '</a></div>';
     if (a.doi) {
       html += '<div class="card-cite" onclick="event.stopPropagation()">';
       html += '<span class="card-cite-text">' + getCiteText(origA) + '</span>';
@@ -722,7 +722,7 @@ function generateBibTeX(a) {
   else if (a.firstpage) bib += 'pages = {' + a.firstpage + '},\r\n';
   if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\r\n';
   if (a.doi) {
-    bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
+    bib += 'url = {https://doi.org/' + a.doi + '},\r\n';
     bib += 'doi = {' + a.doi + '},\r\n';
   }
   if (a.abstract) bib += 'abstract = {' + a.abstract + '}';
