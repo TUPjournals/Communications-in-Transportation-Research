@@ -584,7 +584,7 @@ function render() {
     html += '<div class="card-authors">' + formattedAuthors + '</div>';
     if (kws) html += '<div class="card-keywords">' + kws + '</div>';
     html += researchAreaHtml;
-    if (a.doi) html += '<div class="card-doi"><a href="https://doi.org/' + a.doi + '" target="_blank" onclick="event.stopPropagation()">https://www.doi.org/' + esc(a.doi) + '</a></div>';
+    if (a.doi) html += '<div class="card-doi"><a href="https://doi.org/' + a.doi + '" target="_blank" onclick="event.stopPropagation()">https://doi.org/' + esc(a.doi) + '</a></div>';
     if (a.doi) {
       html += '<div class="card-cite" onclick="event.stopPropagation()">';
       html += '<span class="card-cite-text">' + getCiteText(origA) + '</span>';
