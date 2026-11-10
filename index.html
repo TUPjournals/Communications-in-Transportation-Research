@@ -562,7 +562,7 @@ function render() {
     }).join(', ');
     
     const kws = (a.keywords||[]).slice(0,5).map(function(k) {
-      return '<span class="kw">' + highlight(k.replace(/<[^>]+>/g, ''), currentQuery) + '</span>';
+      return '<span class="kw">' + highlight(k.replace(FMT_TAG_RE, ''), currentQuery) + '</span>';
     }).join('');
     
     const volIssue = (a.volume || a.issue) ? 'Vol.' + (a.volume||'?') + ' Iss. ' + (a.issue||'?') : '';
@@ -578,7 +578,7 @@ function render() {
     
     html += '<div class="card" data-idx="' + idx + '">';
     html += '<div class="card-head" onclick="toggle(this.parentElement)">';
-    html += '<div class="card-title">' + highlight(a.title.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
+    html += '<div class="card-title">' + highlight(a.title.replace(FMT_TAG_RE, ''), currentQuery) + '</div>';
     html += '<div class="badges"><span class="badge-year">' + (a.year || '?') + '</span>';
     if (a.type) html += '<span class="badge-type">' + esc(a.type) + '</span>';
     if (volIssue) html += '<span class="badge-type">' + esc(volIssue) + '</span>';
@@ -602,7 +602,7 @@ function render() {
     if (a.firstpage) html += '<div class="d-item"><label>Article number</label><span>' + a.firstpage + '</span></div>';
     if (a.publication_date) html += '<div class="d-item"><label>Published</label><span>' + esc(a.publication_date) + '</span></div>';
     html += '</div>';
-    if (a.abstract) html += '<div class="d-abstract"><strong>Abstract:</strong> ' + highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
+    if (a.abstract) html += '<div class="d-abstract"><strong>Abstract:</strong> ' + highlight(a.abstract.replace(FMT_TAG_RE, ''), currentQuery) + '</div>';
     html += '<div class="d-links">';
     
     if (a.pdf) html += '<a href="' + a.pdf + '" target="_blank" onclick="event.stopPropagation()">Download PDF →</a>';
@@ -743,6 +743,11 @@ function download(content, filename, mime) {
 }
 
 /* ── Escape ── */
+/* ── Strip ── */
+/* Remove only known inline formatting tags; a generic /<[^>]+>/ would also
+   delete real text such as "<Height, Width, Channel>" in decoded abstracts. */
+const FMT_TAG_RE = /<\/?(?:i|b|em|strong|sup|sub|span|small|mark|u|s|strike|tt|code|math|mi|mn|mo|mtext|msub|msup|mrow)\b[^>]*\/?>/gi;
+
 function esc(s) {
   if (!s) return '';
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
