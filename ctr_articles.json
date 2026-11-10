@@ -4239,7 +4239,7 @@
       "Shanghai Frontiers Science Center of Artificial Intelligence and Deep Learning,Shanghai,CHINA. Shanghai Key Laboratory of Urban Design and Urban Science,CHINA.",
       "Department of Civil and Urban Engineering,New York University,",
       "Shanghai Frontiers Science Center of Artificial Intelligence and Deep Learning,Shanghai,CHINA. Shanghai Key Laboratory of Urban Design and Urban Science,CHINA.",
-      "Department of Civil and Urban Engineering &amp; Center for Urban Science Progress (CUSP),New York University,",
+      "Department of Civil and Urban Engineering & Center for Urban Science Progress (CUSP),New York University,",
       "Shanghai Electric Vehicle Public Data Collecting, Monitoring, and Research Center,Shanghai,CHINA."
     ],
     "keywords": [
@@ -4603,9 +4603,9 @@
       "Md Mazharul Haque"
     ],
     "affiliations": [
-      "School of Civil &amp; Environment Engineering,AUSTRALIA. Queensland University of Technology (QUT),AUSTRALIA.",
+      "School of Civil & Environment Engineering,AUSTRALIA. Queensland University of Technology (QUT),AUSTRALIA.",
       "School of Computer Science,AUSTRALIA. Queensland University of Technology (QUT),AUSTRALIA.",
-      "School of Civil &amp; Environment Engineering,AUSTRALIA. Queensland University of Technology (QUT),AUSTRALIA."
+      "School of Civil & Environment Engineering,AUSTRALIA. Queensland University of Technology (QUT),AUSTRALIA."
     ],
     "keywords": [
       "Bivariate models",
@@ -4944,7 +4944,7 @@
     ],
     "keywords": [
       "Path planning",
-      "&lt;i&gt;Q&lt;/i&gt;-learning",
+      "Q-learning",
       "Waste electrical recovery",
       "Reinforcement learning",
       "Reward function"
@@ -4967,7 +4967,7 @@
     "research_area": [
       "Data-driven and Machine Learning"
     ],
-    "bibtex": "@article{Qi2024, \r\nauthor = {Yang Qi and Jinxin Cao and Baijing Wu},\r\ntitle = {Bidirectional <i>Q</i>-learning for recycling path planning of used appliances under strong and weak constraints},\r\nyear = {2024},\r\njournal = {Communications in Transportation Research},\r\nvolume = {4},\r\nnumber = {4},\r\nkeywords = {Path planning, &lt;i&gt;Q&lt;/i&gt;-learning, Waste electrical recovery, Reinforcement learning, Reward function},\r\nurl = {https://doi.org/10.1016/j.commtr.2024.100153},\r\ndoi = {10.1016/j.commtr.2024.100153},\r\nabstract = {With the continuous innovation in household appliance technology and the improvement of living standards, the production of discarded household appliances has rapidly increased, making their recycling increasingly significant. Traditional path planning algorithms encounter difficulties in balancing efficiency and constraints in addressing the multi-objective, multi-constraint challenge posed by discarded household appliance recycling routes. To tackle this issue, this study introduces a bi-directional Q-learning-based path planning algorithm. By developing a bi-directional Q-learning mechanism and enhancing the initialization method of Q-learning, the algorithm aims to achieve efficient and effective optimization of discarded household appliance recycling routes. It implements bidirectional updates of the state-action value function from both the starting point and the target point. Additionally, a hierarchical reinforcement learning strategy and guided rewards are introduced to minimize blind exploration and expedite convergence. By decomposing complex recycling tasks into multiple sub-tasks and seeking paths with superior performance at each sub-task level, the initial exploratory blindness is reduced. To validate the efficacy of the proposed algorithm, gridbased modeling of real-world environments is utilized. Comparative experiments reveal significant improvements in iteration counts and path lengths, thereby validating its practical applicability in path planning for recycling initiatives.}\r\n}",
+    "bibtex": "@article{Qi2024, \r\nauthor = {Yang Qi and Jinxin Cao and Baijing Wu},\r\ntitle = {Bidirectional Q-learning for recycling path planning of used appliances under strong and weak constraints},\r\nyear = {2024},\r\njournal = {Communications in Transportation Research},\r\nvolume = {4},\r\nnumber = {4},\r\nkeywords = {Path planning, Q-learning, Waste electrical recovery, Reinforcement learning, Reward function},\r\nurl = {https://doi.org/10.1016/j.commtr.2024.100153},\r\ndoi = {10.1016/j.commtr.2024.100153},\r\nabstract = {With the continuous innovation in household appliance technology and the improvement of living standards, the production of discarded household appliances has rapidly increased, making their recycling increasingly significant. Traditional path planning algorithms encounter difficulties in balancing efficiency and constraints in addressing the multi-objective, multi-constraint challenge posed by discarded household appliance recycling routes. To tackle this issue, this study introduces a bi-directional Q-learning-based path planning algorithm. By developing a bi-directional Q-learning mechanism and enhancing the initialization method of Q-learning, the algorithm aims to achieve efficient and effective optimization of discarded household appliance recycling routes. It implements bidirectional updates of the state-action value function from both the starting point and the target point. Additionally, a hierarchical reinforcement learning strategy and guided rewards are introduced to minimize blind exploration and expedite convergence. By decomposing complex recycling tasks into multiple sub-tasks and seeking paths with superior performance at each sub-task level, the initial exploratory blindness is reduced. To validate the efficacy of the proposed algorithm, gridbased modeling of real-world environments is utilized. Comparative experiments reveal significant improvements in iteration counts and path lengths, thereby validating its practical applicability in path planning for recycling initiatives.}\r\n}",
     "ris": "TY  - JOUR\r\nAU  - Qi, Yang\r\nAU  - Cao, Jinxin\r\nAU  - Wu, Baijing\r\nPY  - 2024\r\nTI  - Bidirectional <i>Q</i>-learning for recycling path planning of used appliances under strong and weak constraints\r\nJO  - Communications in Transportation Research\r\nSN  - 2097-5023\r\nSP  - 100153\r\nVL  - 4\r\nIS  - 4\r\nAB  - With the continuous innovation in household appliance technology and the improvement of living standards, the production of discarded household appliances has rapidly increased, making their recycling increasingly significant. Traditional path planning algorithms encounter difficulties in balancing efficiency and constraints in addressing the multi-objective, multi-constraint challenge posed by discarded household appliance recycling routes. To tackle this issue, this study introduces a bi-directional Q-learning-based path planning algorithm. By developing a bi-directional Q-learning mechanism and enhancing the initialization method of Q-learning, the algorithm aims to achieve efficient and effective optimization of discarded household appliance recycling routes. It implements bidirectional updates of the state-action value function from both the starting point and the target point. Additionally, a hierarchical reinforcement learning strategy and guided rewards are introduced to minimize blind exploration and expedite convergence. By decomposing complex recycling tasks into multiple sub-tasks and seeking paths with superior performance at each sub-task level, the initial exploratory blindness is reduced. To validate the efficacy of the proposed algorithm, gridbased modeling of real-world environments is utilized. Comparative experiments reveal significant improvements in iteration counts and path lengths, thereby validating its practical applicability in path planning for recycling initiatives.\r\nUR  - https://doi.org/10.1016/j.commtr.2024.100153\r\nDO  - 10.1016/j.commtr.2024.100153\r\n\r\n"
   },
   {
@@ -5031,8 +5031,8 @@
     "affiliations": [
       "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES.",
       "Department of Civil and Environmental Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES.",
-      "Zachry Department of Civil and Environmental Engineering,Texas A&amp;M University, 77843-3123,",
-      "Zachry Department of Civil and Environmental Engineering,Texas A&amp;M University, 77843-3123,",
+      "Zachry Department of Civil and Environmental Engineering,Texas A&M University, 77843-3123,",
+      "Zachry Department of Civil and Environmental Engineering,Texas A&M University, 77843-3123,",
       "Department of Industrial and Systems Engineering,UNITED STATES. University of Wisconsin-Madison, 53715,UNITED STATES."
     ],
     "keywords": [
@@ -5119,7 +5119,7 @@
       "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA.",
       "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA.",
       "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA.",
-      "Department of Geographic Information Management,Yunnan,CHINA. Ministry of Natural Resources of the People&#39;s Republic of China,Kunming,Yunnan,CHINA.",
+      "Department of Geographic Information Management,Yunnan,CHINA. Ministry of Natural Resources of the People's Republic of China,Kunming,Yunnan,CHINA.",
       "School of Vehicle and Mobility,CHINA. Tsinghua University, 100084,CHINA."
     ],
     "keywords": [],
